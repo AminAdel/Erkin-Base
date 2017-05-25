@@ -1,0 +1,58 @@
+/* Image Filters :
+===========================*/
+
+/* filter grayscale */
+.filter_gray, .filter_gray_100 {
+	-webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+$i: 10;
+@while $i <= 90 {
+	.filter_gray_#{$i} {
+		-webkit-filter: grayscale($i / 100);
+    	filter: grayscale($i / 100);
+	}
+	$i : $i + 10;
+}
+
+
+
+
+
+/* filter blur */
+$i: 0;
+@while $i <= 10 {
+	.filter_blur_#{$i} {
+		-webkit-filter: blur(#{$i}px);
+    	filter: blur(#{$i}px);
+	}
+	$i : $i + 1;
+}
+
+
+
+
+
+/* filter sepia */
+.filter_sepia, .filter_sepia_100 {
+	-webkit-filter: sepia(1);
+    filter: sepia(1);
+}
+$i: 10;
+@while $i <= 90 {
+	.filter_sepia_#{$i} {
+		-webkit-filter: sepia($i / 100);
+    	filter: sepia($i / 100);
+	}
+	$i : $i + 10;
+}
+
+
+
+
+
+
+
+
+
+

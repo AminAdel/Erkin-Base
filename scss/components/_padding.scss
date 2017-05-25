@@ -1,0 +1,74 @@
+/* Padding :
+===========================*/
+// between -10~10 step length=1; else =5
+
+/* all sides */
+$i : 0;
+@while $i <= 100 {
+	.pdn_#{$i} { padding: #{$i}px; }
+	
+	@if $i < 10 {
+		$i : $i + 1;
+	}
+	@else if $i <= 100 {
+		$i : $i + 5;
+	}
+}
+
+
+
+
+
+
+
+/* two values mode */
+$i: 0;
+@while $i <= 30 {
+	$j: 0;
+	@while $j <= 30 {
+		.pdn_#{$i}_#{$j} { padding: #{$i}px #{$j}px; }
+		
+		@if $j < 10 {
+			$j : $j + 1;
+		}
+		@else if $j <= 100 {
+			$j : $j + 5;
+		}
+	}
+
+	@if $i < 10 {
+		$i : $i + 1;
+	}
+	@else if $i <= 100 {
+		$i : $i + 5;
+	}
+}
+
+
+
+
+
+$directions: (
+	/*$dir : $direction*/
+	't' :	'top',
+	'r' :	'right',
+	'b' :	'bottom',
+	'l' :	'left'
+);
+
+@each $dir, $direction in $directions {
+	/* padding #{$direction} */
+	$i : 0;
+	@while $i <= 100 {
+		.pdn#{$dir}_#{$i} {padding-#{$direction}: #{$i}px;}
+		
+		@if $i < 10 {
+			$i : $i + 1;
+		}
+		@else if $i <= 100 {
+			$i : $i + 5;
+		}
+	}
+}
+
+

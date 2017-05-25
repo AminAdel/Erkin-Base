@@ -1,0 +1,125 @@
+/* Background :
+===========================*/
+.bg_cover,
+.cover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+// .bg_center :
+.bg_center {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+/* Opacity */
+.op_0 { opacity: 0; }
+.op_005 { opacity: 0.05; } .op_01 { opacity: 0.1; }
+.op_015 { opacity: 0.15; } .op_02 { opacity: 0.2; }
+.op_025 { opacity: 0.25; } .op_03 { opacity: 0.3; }
+.op_035 { opacity: 0.35; } .op_04 { opacity: 0.4; }
+.op_045 { opacity: 0.45; } .op_05 { opacity: 0.5; }
+.op_055 { opacity: 0.55; } .op_06 { opacity: 0.6; }
+.op_065 { opacity: 0.65; } .op_07 { opacity: 0.7; }
+.op_075 { opacity: 0.75; } .op_08 { opacity: 0.8; }
+.op_085 { opacity: 0.85; } .op_09 { opacity: 0.9; }
+.op_095 { opacity: 0.95; } .op_10, .op_1 { opacity:   1; }
+
+
+
+/* Hover Effect Opacity */
+.hov_op_005,
+.hov_op_01,
+.hov_op_015,
+.hov_op_02,
+.hov_op_025,
+.hov_op_03,
+.hov_op_035,
+.hov_op_04,
+.hov_op_045,
+.hov_op_05,
+.hov_op_055,
+.hov_op_06,
+.hov_op_065,
+.hov_op_07,
+.hov_op_075,
+.hov_op_08,
+.hov_op_085,
+.hov_op_09,
+.hov_op_095,
+.hov_op_1 {
+	@include transition('opacity', '250', '');
+}
+
+.hov_op_005:hover { opacity: 0.05; }
+.hov_op_01:hover  { opacity: 0.10; }
+.hov_op_015:hover { opacity: 0.15; }
+.hov_op_02:hover  { opacity: 0.20; }
+.hov_op_025:hover { opacity: 0.25; }
+.hov_op_03:hover  { opacity: 0.30; }
+.hov_op_035:hover { opacity: 0.35; }
+.hov_op_04:hover  { opacity: 0.40; }
+.hov_op_045:hover { opacity: 0.45; }
+.hov_op_05:hover  { opacity: 0.50; }
+.hov_op_055:hover { opacity: 0.55; }
+.hov_op_06:hover  { opacity: 0.60; }
+.hov_op_065:hover { opacity: 0.65; }
+.hov_op_07:hover  { opacity: 0.70; }
+.hov_op_075:hover { opacity: 0.75; }
+.hov_op_08:hover  { opacity: 0.80; }
+.hov_op_085:hover { opacity: 0.85; }
+.hov_op_09:hover  { opacity: 0.90; }
+.hov_op_095:hover { opacity: 0.95; }
+.hov_op_1:hover   { opacity:    1; }
+
+
+
+
+/* Background-size */
+.bgz_a { background-size: auto; }
+.bgz_cov { background-size: cover; }
+.bgz_con { background-size: contain; }
+.bgz_full { background-size: 100% 100%; }
+.bgz_full_auto, .bgz_f_a { background-size: 100% auto; }
+
+
+
+/* Background-position */
+.bgp_t 		{ background-position: top; }
+.bgp_c 		{ background-position: center; }
+.bgp_b 		{ background-position: bottom; }
+.bgp_l 		{ background-position: left; }
+.bgp_r 		{ background-position: right; }
+
+.bgp_rt, .bgp_tr 		{ background-position: right top; }
+.bgp_rc, .bgp_cr 		{ background-position: right center; }
+.bgp_rb, .bgp_br 		{ background-position: right bottom; }
+
+.bgp_lt, .bgp_tl 		{ background-position: left top; }
+.bgp_lc, .bgp_cl 		{ background-position: left center; }
+.bgp_lb, .bgp_bl 		{ background-position: left bottom; }
+
+.bgp_ct, .bgp_tc 		{ background-position: center top; }
+.bgp_cc					{ background-position: center center; }
+.bgp_cb, .bgp_bc 		{ background-position: center bottom; }
+
+
+
+
+/* Background-repeat */
+.bgr_n 		{ background-repeat: no-repeat; }
+.bgr_r 		{ background-repeat: repeat; }
+.bgr_rx 	{ background-repeat: repeat-x; }
+.bgr_ry 	{ background-repeat: repeat-y; }
+
+
+.bg_fix { background-attachment: fixed;}
+
+

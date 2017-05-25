@@ -1,0 +1,159 @@
+/* Display :
+===========================*/
+.ds_i 		{ display: inline; }
+.ds_b 		{ display: block; }
+.ds_ib 		{ display: inline-block; }
+// .ds_li 		{ display: list-item; }
+// .ds_ri 		{ display: run-in; }
+// .ds_c 		{ display: compact; }
+
+.ds_it 		{ display: inline-table; }
+.ds_t 		{ display: table; }
+.ds_tr 		{ display: table-row; }
+.ds_tc 		{ display: table-cell; }
+// .ds_trg 	{ display: table-row-group; }
+// .ds_thg 	{ display: table-header-group; }
+// .ds_tfg 	{ display: table-footer-group; }
+// .ds_tcg 	{ display: table-column-group; }
+// .ds_tcol 	{ display: table-column; }
+// .ds_tcap 	{ display: table-caption; }
+
+// .ds_r 		{ display: ruby; }
+// .ds_rb 		{ display: ruby-base; }
+// .ds_rbg		{ display: ruby-base-group; }
+// .ds_rt 		{ display: ruby-text; }
+// .ds_rtg 	{ display: ruby-text-group; }
+
+.ds_f 		{ display: flex; }
+.ds_if 		{ display: inline-flex; }
+.ds_n 		{ display: none; }
+
+
+
+
+
+
+
+/* Position :
+===========================*/
+.po_s 			{ position: static; }
+.po_r 			{ position: relative; }
+.po_a 			{ position: absolute; }
+.po_f, .fixed 	{ position: fixed; }
+
+
+
+
+
+
+
+/* Float :
+===========================*/
+.fl_r { float: right; }
+.fl_l { float: left; }
+.fl_n { float: none; }
+
+
+
+
+
+
+
+/* Overflow :
+===========================*/
+.ovf_a, .ovf_a_i, .ovf_a_i *		{ overflow: auto; }
+.ovf_v, .ovf_v_i, .ovf_v_i *		{ overflow: visible; }
+.ovf_h, .ovf_h_i, .ovf_h_i *		{ overflow: hidden; }
+.ovf_s								{ overflow: scroll; }
+// .ovf_nd							{ overflow: no-display; }
+// .ovf_nc							{ overflow: no-content; }
+
+.ovfx_a, .ovfx_a_i, .ovfx_a_i *		{ overflow-x: auto; }
+.ovfx_v, .ovfx_v_i, .ovfx_v_i *		{ overflow-x: visible; }
+.ovfx_h, .ovfx_h_i, .ovfx_h_i *		{ overflow-x: hidden; }
+.ovfx_s								{ overflow-x: scroll; }
+// .ovfx_nd							{ overflow-x: no-display; }
+// .ovfx_nc							{ overflow-x: no-content; }
+
+.ovfy_a, .ovfy_a_i, .ovfy_a_i *		{ overflow-y: auto; }
+.ovfy_v, .ovfy_v_i, .ovfy_v_i *		{ overflow-y: visible; }
+.ovfy_h, .ovfy_h_i, .ovfy_h_i *		{ overflow-y: hidden; }
+.ovfy_s								{ overflow-y: scroll; }
+// .ovfy_nd							{ overflow-y: no-display; }
+// .ovfy_nc							{ overflow-y: no-content; }
+
+
+
+
+
+
+
+/* Box-Sizing :
+===========================*/
+.bxz_c, .bxz_c_i, .bxz_c_i * 	{ box-sizing: content-box;}
+.bxz_p, .bxz_p_i, .bxz_p_i *	{ box-sizing: padding-box;}
+.bxz_b, .bxz_b_i, .bxz_b_i *	{ box-sizing: border-box;}
+
+
+
+
+
+
+
+/* z-index :
+===========================*/
+$i: -10;
+@while $i <= 15 {
+	.z_#{$i} { z-index: #{$i}; }
+	$i: $i + 1;
+}
+
+
+
+
+
+
+
+/* cursor :
+===========================*/
+.cursor_auto, 			.curs_a 	{ cursor: auto; }
+.cursor_pointer, 		.curs_po 	{ cursor: pointer; }
+.cursor_default, 		.curs_de 	{ cursor: default; }
+.cursor_none, 			.curs_n 	{ cursor: none; }
+.cursor_text, 			.curs_t 	{ cursor: text; }
+.cursor_wait, 			.curs_w 	{ cursor: wait; }
+.cursor_progress, 		.curs_pg	{ cursor: progress; }
+
+// .cursor_context-menu, 	.curs_cm 	{ cursor: context-menu; }
+// .cursor_help, 			.curs_h 	{ cursor: help; }
+// .cursor_cell, 			.curs_cl 	{ cursor: cell; }
+// .cursor_crosshair, 		.curs_ch 	{ cursor: crosshair; }
+// .cursor_vtext, 			.curs_vt 	{ cursor: vertical-text; }
+// .cursor_alias, 			.curs_al 	{ cursor: alias; }
+// .cursor_copy, 			.curs_c 	{ cursor: copy; }
+// .cursor_move, 			.curs_m 	{ cursor: move; }
+// .cursor_no-drop, 		.curs_nd 	{ cursor: no-drop; }
+// .cursor_not-allowed, 	.curs_na 	{ cursor: not-allowed; }
+// .cursor_all-scroll, 	.curs_as 	{ cursor: all-scroll; }
+
+
+
+
+
+
+
+/* vertical-align :
+===========================*/
+.va_t	{ vertical-align: top;}
+.va_m	{ vertical-align: middle;}
+.va_b	{ vertical-align: bottom;}
+.va_bl	{ vertical-align: baseline;}
+.va_sb	{ vertical-align: sub;}
+.va_sp	{ vertical-align: super;}
+.va_tt	{ vertical-align: text-top;}
+.va_tb	{ vertical-align: text-bottom;}
+
+
+
+
+

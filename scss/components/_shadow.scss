@@ -1,0 +1,93 @@
+/* Shadow :
+===========================*/
+
+
+/* box-shadow Pro Effects : */
+// TODO : use effects on this page : https://css-tricks.com/almanac/properties/b/box-shadow/
+// TODO : Add inset shadows;
+
+
+// can depth be bigger than blur value?
+// false recommended; it's practical and reduces final file-size
+// $enable_bigger_depth : false; // true|false
+// 
+// $colors: (
+// 	'0':	'#000',
+// 	'1':	'#111',
+// 	'2':	'#222',
+// 	'3':	'#333',
+// 	'4':	'#444',
+// 	'5':	'#555',
+// 	'6':	'#666',
+// 	'7':	'#777',
+// 	'8':	'#888',
+// 	'9':	'#999',
+// 	'a':	'#aaa',
+// 	'b':	'#bbb',
+// 	'c':	'#ccc',
+// 	'd':	'#ddd',
+// 	'e':	'#eee'
+// );
+// 
+// 
+// /* box-shadow -> Outset Simple : */
+// Example 1 : box-shadow: 0 2px 4px #bbb;	-> class will be : .shadow_2_4_b
+// Example 2 : box-shadow: 0 6px 10px #555;	-> class will be : .shadow_6_10_5
+// increases file size; not recommended;
+// @for $depth from 0 through 10 {
+// 	@for $blur from 1 through 10 {
+// 		@each $color, $color_value in $colors {
+// 			@if ($blur >= $depth) or ($enable_bigger_depth == true) {
+// 				// I always set blur bigger than depth
+// 				.shadow_#{$depth}_#{$blur}_#{$color} {
+// 					box-shadow: 0 #{$depth}px #{$blur}px #{$color_value};
+// 				}
+// 			}
+// 		}
+// 	}
+// }
+
+
+
+
+
+
+
+/* Z-levels */
+.zd_0 {
+  box-shadow: none !important;
+}
+.zd_1 {
+  box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.3);
+}
+.zd_1-half {
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+.zd_2 {
+  box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.5);
+}
+.zd_3 {
+  box-shadow: 0 2px 8px -1px rgba(0, 0, 0, 0.6);
+}
+.zd_4 {
+  box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.6);
+}
+.zd_5 {
+  box-shadow: 0 4px 15px -2px rgba(0, 0, 0, 0.6);
+}
+
+.zd_hoverable, .zd_h {
+  transition: box-shadow 250ms;
+  box-shadow: 0;
+}
+
+.zd_hoverable:hover, .zd_h:hover {
+  transition: box-shadow 250ms;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.3);
+}
+// END z-levels
+
+
+
+
+
