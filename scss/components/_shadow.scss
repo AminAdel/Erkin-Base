@@ -78,7 +78,7 @@
 
 .zd_hoverable, .zd_h {
   transition: box-shadow 250ms;
-  box-shadow: 0;
+  box-shadow: none;
 }
 
 .zd_hoverable:hover, .zd_h:hover {

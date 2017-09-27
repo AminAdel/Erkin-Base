@@ -32,6 +32,16 @@ $i: 5;
 
 
 
+/* width vw : */
+$i: 5;
+@while $i <= 100 {
+	.w_#{$i}vw { width: #{$i}vw; }
+	$i: $i + 5;
+}
+
+
+
+
 /* width minus : */
 $i: 5;
 @while $i <= 95 {
@@ -119,6 +129,15 @@ $i: 5;
 
 
 
+/* height vw : */
+$i: 5;
+@while $i <= 100 {
+	.h_#{$i}vh { height: #{$i}vh; }
+	$i: $i + 5;
+}
+
+
+
 
 /* min height : */
 $i: 5;
@@ -157,8 +176,3 @@ $i: 5;
 		$i: $i + 50;
 	}
 }
-
-
-
-
-
