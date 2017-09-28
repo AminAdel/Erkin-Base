@@ -1,11 +1,9 @@
 /* Shadow :
 ===========================*/
 
-
 /* box-shadow Pro Effects : */
 // TODO : use effects on this page : https://css-tricks.com/almanac/properties/b/box-shadow/
 // TODO : Add inset shadows;
-
 
 // can depth be bigger than blur value?
 // false recommended; it's practical and reduces final file-size
@@ -47,47 +45,48 @@
 // 	}
 // }
 
-
-
-
-
-
-
 /* Z-levels */
 .zd_0 {
-  box-shadow: none !important;
+	box-shadow: none !important;
 }
+
 .zd_1 {
-  box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.3);
 }
+
 .zd_1-half {
-  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.3);
 }
+
 .zd_2 {
-  box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.5);
 }
+
 .zd_3 {
-  box-shadow: 0 2px 8px -1px rgba(0, 0, 0, 0.6);
+	box-shadow: 0 2px 8px -1px rgba(0, 0, 0, 0.6);
 }
+
 .zd_4 {
-  box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.6);
+	box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.6);
 }
+
 .zd_5 {
-  box-shadow: 0 4px 15px -2px rgba(0, 0, 0, 0.6);
+	box-shadow: 0 4px 15px -2px rgba(0, 0, 0, 0.6);
 }
 
 .zd_hoverable, .zd_h {
-  transition: box-shadow 250ms;
-  box-shadow: none;
+	transition: box-shadow 250ms;
+	box-shadow: none;
 }
 
 .zd_hoverable:hover, .zd_h:hover {
-  transition: box-shadow 250ms;
-  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.3);
+	transition: box-shadow 250ms;
+	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.3);
 }
+
+//===================== more classes :
+.zd_0-0-20-0_02 {
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
 // END z-levels
-
-
-
-
-
