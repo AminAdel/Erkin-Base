@@ -1,0 +1,26 @@
+//---> Create   :   2018.05.30
+//---> Finish   :   --
+//---> Update   :   --
+//============================
+
+/* fonts :
+===========================*/
+
+/* font-size PX : */
+$i: 6;
+@while $i <= 100 {
+	.fz_#{$i} { font-size: #{$i}px !important }
+	@if $i < 20 {
+		$i: $i + 1;
+	}
+	@else {
+		$i: $i + 2;
+	}
+}
+
+/* font-size PT : */
+$i: 6;
+@while $i <= 30 {
+	.fz_#{$i}pt { font-size: #{$i}pt !important }
+	$i: $i + 1;
+}
