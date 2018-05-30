@@ -1,2 +1,2 @@
-# Erkin-Base version 1.3.3
-Web front-end basic framework. Useful near bootstrap and other UI frameworks
+# Erkin-Base version 2.0.0 dev
+Web frontend advanced framework. Useful near bootstrap and other UI frameworks
