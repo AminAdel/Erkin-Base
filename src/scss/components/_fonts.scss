@@ -1,12 +1,12 @@
 //---> Create   :   2018.05.30
-//---> Finish   :   --
+//---> Finish   :   2018.05.30
 //---> Update   :   --
 //============================
 
 /* fonts :
 ===========================*/
 
-/* font-size PX : */
+/* font-size PX */
 $i: 6;
 @while $i <= 100 {
 	.fz_#{$i} { font-size: #{$i}px !important }
@@ -18,9 +18,78 @@ $i: 6;
 	}
 }
 
-/* font-size PT : */
+/* font-size PT */
 $i: 6;
 @while $i <= 30 {
 	.fz_#{$i}pt { font-size: #{$i}pt !important }
 	$i: $i + 1;
+}
+
+
+/* font-styles */
+.i, .italic, .fs_i { font-style: italic !important }
+.b, .bold, .fs_b { font-weight: bold !important }
+.n, .normal, .fs_n { font-style: normal !important }
+
+
+/* font-weight */
+.fw_100 { font-weight: 100 !important; }
+.fw_200 { font-weight: 200 !important; }
+.fw_300 { font-weight: 300 !important; }
+.fw_400 { font-weight: 400 !important; }
+.fw_500 { font-weight: 500 !important; }
+.fw_600 { font-weight: 600 !important; }
+.fw_700 { font-weight: 700 !important; }
+.fw_800 { font-weight: 800 !important; }
+.fw_900 { font-weight: 900 !important; }
+.fw_n { font-weight: normal !important; }
+.fw_b { font-weight: bold !important; }
+.fw_br { font-weight: bolder !important; }
+.fw_lr { font-weight: lighter !important; }
+
+
+/* direction */
+.ltr { direction: ltr !important; }
+.rtl { direction: rtl !important; }
+
+
+/* text-align */
+.tx_r { text-align: right !important; }
+.tx_l { text-align: left !important; }
+.tx_c { text-align: center !important; }
+.tx_j { text-align: justify !important; }
+
+
+/* line height % */
+$i: 50;
+@while $i <= 300 {
+	// .lh_#{$i} { line-height: #{$i}unquote('%'); }
+	.lh_#{$i} { line-height: $i / 100 !important; }
+	$i: $i + 10;
+}
+
+/* line height PX */
+$i: 10;
+@while $i <= 50 {
+	.lh_#{$i}px { line-height: #{$i}px !important; }
+	$i: $i + 1;
+}
+$i: 55;
+@while $i <= 100 {
+	.lh_#{$i}px { line-height: #{$i}px !important; }
+	$i: $i + 5;
+}
+
+
+/* letter-spacing */
+.ls_n, .letsp_n		{	letter-spacing: normal !important; }
+@for $i from 1 through 5 {
+	.ls_#{$i}, .letsp_#{$i} { letter-spacing: #{$i}px !important; }
+}
+
+
+/* word-spacing */
+.ws_n, .wordsp_n		{	word-spacing: normal !important; }
+@for $i from 1 through 5 {
+	.ws_#{$i}, .wordsp_#{$i} { word-spacing: #{$i}px !important; }
 }
