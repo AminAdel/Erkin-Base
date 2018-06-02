@@ -1,0 +1,36 @@
+//---> Create	:	2018.06.02
+//---> Finish	:	2018.06.02
+//---> Update	:	--
+/*****************************/
+
+/* Outline :
+===========================*/
+// all color classes are now available at "webcolors" repository, use it near "Erkin-Base"
+
+/* Outline Width : */
+$i: 0;
+@while $i <= 10 {
+	.ot_#{$i} { outline-width: #{$i}px !important; }
+	$i: $i + 1;
+}
+.ot_thin { outline-width: thin !important; }
+.ot_medium { outline-width: medium !important; }
+.ot_thick { outline-width: thick !important; }
+
+
+/* Outline Style : */
+$ot_styles: (
+	'none',
+	'hidden',
+	'dotted',
+	'dashed',
+	'solid',
+	'double',
+	'groove',
+	'ridge',
+	'inset',
+	'outset'
+);
+@each $style in $ot_styles {
+	.ot_#{$style} { outline-style: #{$style} !important; }
+}
