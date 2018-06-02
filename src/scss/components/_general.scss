@@ -3,3 +3,98 @@
 //---> Update   :   --
 /*****************************/
 
+.noTranse {
+	transition: none !important;
+}
+
+
+/* Display :
+===========================*/
+.ds_i 		{ display: inline !important; }
+.ds_b 		{ display: block !important; }
+.ds_ib 		{ display: inline-block !important; }
+.ds_f 		{ display: flex !important; }
+.ds_if 		{ display: inline-flex !important; }
+.ds_n 		{ display: none !important; }
+.ds_it 		{ display: inline-table !important; }
+.ds_t 		{ display: table !important; }
+.ds_tr 		{ display: table-row !important; }
+.ds_tc 		{ display: table-cell !important; }
+.ds_li 		{ display: list-item !important; }
+
+
+/* Position :
+===========================*/
+.po_s 			{ position: static !important; }
+.po_r 			{ position: relative !important; }
+.po_a 			{ position: absolute !important; }
+.po_f, .fixed 	{ position: fixed !important; }
+
+
+/* Float :
+===========================*/
+.fl_r { float: right !important; }
+.fl_l { float: left !important; }
+.fl_n { float: none !important; }
+
+
+/* Overflow :
+===========================*/
+.ovf_a		{ overflow: auto !important; }
+.ovf_v		{ overflow: visible !important; }
+.ovf_h		{ overflow: hidden !important; }
+.ovf_s      { overflow: scroll !important; }
+
+.ovfx_a		{ overflow-x: auto !important; }
+.ovfx_v     { overflow-x: visible !important; }
+.ovfx_h     { overflow-x: hidden !important; }
+.ovfx_s     { overflow-x: scroll !important; }
+
+.ovfy_a		{ overflow-y: auto !important; }
+.ovfy_v		{ overflow-y: visible !important; }
+.ovfy_h		{ overflow-y: hidden !important; }
+.ovfy_s     { overflow-y: scroll !important; }
+
+
+/* z-index :
+===========================*/
+$i: -10;
+@while $i <= 15 {
+	.z_#{$i} { z-index: #{$i} !important; }
+	$i: $i + 1;
+}
+
+
+/* cursor :
+===========================*/
+.cursor_auto, 			.curs_a 	{ cursor: auto !important; }
+.cursor_pointer, 		.curs_po 	{ cursor: pointer !important; }
+.cursor_default, 		.curs_de 	{ cursor: default !important; }
+.cursor_none, 			.curs_n 	{ cursor: none !important; }
+.cursor_text, 			.curs_t 	{ cursor: text !important; }
+.cursor_wait, 			.curs_w 	{ cursor: wait !important; }
+.cursor_progress, 		.curs_pg	{ cursor: progress !important; }
+
+// .cursor_context-menu, 	.curs_cm 	{ cursor: context-menu; }
+// .cursor_help, 			.curs_h 	{ cursor: help; }
+// .cursor_cell, 			.curs_cl 	{ cursor: cell; }
+// .cursor_crosshair, 		.curs_ch 	{ cursor: crosshair; }
+// .cursor_vtext, 			.curs_vt 	{ cursor: vertical-text; }
+// .cursor_alias, 			.curs_al 	{ cursor: alias; }
+// .cursor_copy, 			.curs_c 	{ cursor: copy; }
+// .cursor_move, 			.curs_m 	{ cursor: move; }
+// .cursor_no-drop, 		.curs_nd 	{ cursor: no-drop; }
+// .cursor_not-allowed, 	.curs_na 	{ cursor: not-allowed; }
+// .cursor_all-scroll, 	.curs_as 	{ cursor: all-scroll; }
+
+
+/* vertical-align :
+===========================*/
+.va_t	{ vertical-align: top !important;}
+.va_m	{ vertical-align: middle !important;}
+.va_b	{ vertical-align: bottom !important;}
+.va_bl	{ vertical-align: baseline !important;}
+.va_sb	{ vertical-align: sub !important;}
+.va_sp	{ vertical-align: super !important;}
+.va_tt	{ vertical-align: text-top !important;}
+.va_tb	{ vertical-align: text-bottom !important;}
