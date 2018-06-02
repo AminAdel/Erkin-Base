@@ -1,0 +1,64 @@
+//---> Create   :   2018.06.02
+//---> Finish   :   --
+//---> Update   :   --
+/*****************************/
+
+/* Opacity */
+.op_0 { opacity: 0 !important; }
+.op_005 { opacity: 0.05 !important; } .op_01 { opacity: 0.1 !important; }
+.op_015 { opacity: 0.15 !important; } .op_02 { opacity: 0.2 !important; }
+.op_025 { opacity: 0.25 !important; } .op_03 { opacity: 0.3 !important; }
+.op_035 { opacity: 0.35 !important; } .op_04 { opacity: 0.4 !important; }
+.op_045 { opacity: 0.45 !important; } .op_05 { opacity: 0.5 !important; }
+.op_055 { opacity: 0.55 !important; } .op_06 { opacity: 0.6 !important; }
+.op_065 { opacity: 0.65 !important; } .op_07 { opacity: 0.7 !important; }
+.op_075 { opacity: 0.75 !important; } .op_08 { opacity: 0.8 !important; }
+.op_085 { opacity: 0.85 !important; } .op_09 { opacity: 0.9 !important; }
+.op_095 { opacity: 0.95 !important; } .op_1 { opacity:    1 !important; }
+
+
+/* Hover Effect Opacity */
+.hov_op_005,
+.hov_op_01,
+.hov_op_015,
+.hov_op_02,
+.hov_op_025,
+.hov_op_03,
+.hov_op_035,
+.hov_op_04,
+.hov_op_045,
+.hov_op_05,
+.hov_op_055,
+.hov_op_06,
+.hov_op_065,
+.hov_op_07,
+.hov_op_075,
+.hov_op_08,
+.hov_op_085,
+.hov_op_09,
+.hov_op_095,
+.hov_op_1 {
+	@include transition('opacity', '250', '');
+}
+
+.hov_op_005:hover { opacity: 0.05 !important; }
+.hov_op_01:hover  { opacity: 0.10 !important; }
+.hov_op_015:hover { opacity: 0.15 !important; }
+.hov_op_02:hover  { opacity: 0.20 !important; }
+.hov_op_025:hover { opacity: 0.25 !important; }
+.hov_op_03:hover  { opacity: 0.30 !important; }
+.hov_op_035:hover { opacity: 0.35 !important; }
+.hov_op_04:hover  { opacity: 0.40 !important; }
+.hov_op_045:hover { opacity: 0.45 !important; }
+.hov_op_05:hover  { opacity: 0.50 !important; }
+.hov_op_055:hover { opacity: 0.55 !important; }
+.hov_op_06:hover  { opacity: 0.60 !important; }
+.hov_op_065:hover { opacity: 0.65 !important; }
+.hov_op_07:hover  { opacity: 0.70 !important; }
+.hov_op_075:hover { opacity: 0.75 !important; }
+.hov_op_08:hover  { opacity: 0.80 !important; }
+.hov_op_085:hover { opacity: 0.85 !important; }
+.hov_op_09:hover  { opacity: 0.90 !important; }
+.hov_op_095:hover { opacity: 0.95 !important; }
+.hov_op_1:hover   { opacity:    1 !important; }
+

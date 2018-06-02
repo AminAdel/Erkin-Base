@@ -4,6 +4,8 @@
 //============================
 
 @import "includes/color_variables";
+@import "includes/mixins";
+@import "components/general";
 @import "components/width"; //done
 @import "components/height"; //done
 @import "components/margin"; //done
@@ -13,3 +15,5 @@
 @import "components/border_radius"; //done
 @import "components/border"; //done
 @import "components/outline"; //done
+@import "components/bg"; //done
+@import "components/opacity"; //done
