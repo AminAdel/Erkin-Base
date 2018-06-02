@@ -1,0 +1,120 @@
+//---> Create	:	2018.06.02
+//---> Finish	:	2018.06.02
+//---> Update	:	--
+/*****************************/
+
+/* Border Radius :
+===========================*/
+
+/* Simple : */
+$i: 0;
+@while $i <= 50 {
+	.rds_#{$i}{ border-radius: #{$i}px !important; }
+	
+	@if $i < 10 {
+		$i: $i + 1;
+	}
+	@else if $i <= 50 {
+		$i: $i + 5;
+	}
+}
+
+
+/* Simple Percent : */
+$i: 5;
+@while $i <= 100 {
+	.rds_#{$i}pc {
+		border-radius: #{$i}unquote("%") !important;
+	}
+	$i: $i + 5;
+}
+
+
+/* corner top left */
+$i: 0;
+@while $i <= 50 {
+	.rds_tl_#{$i}, .rds_lt_#{$i} { border-top-left-radius: #{$i}px !important; }
+	
+	@if $i < 10 {
+		$i: $i + 1;
+	}
+	@else if $i <= 50 {
+		$i: $i + 5;
+	}
+}
+
+
+/* corner top left percent */
+$i: 5;
+@while $i <= 50 {
+	.rds_tl_#{$i}pc, .rds_lt_#{$i}pc { border-top-left-radius: #{$i}unquote("%") !important; }
+	$i: $i + 5;
+}
+
+
+/* corner top right */
+$i: 0;
+@while $i <= 50 {
+	.rds_tr_#{$i}, .rds_rt_#{$i} { border-top-right-radius: #{$i}px !important; }
+	
+	@if $i < 10 {
+		$i: $i + 1;
+	}
+	@else if $i <= 50 {
+		$i: $i + 5;
+	}
+}
+
+
+/* corner top right percent */
+$i: 5;
+@while $i <= 50 {
+	.rds_tr_#{$i}pc, .rds_rt_#{$i}pc { border-top-right-radius: #{$i}unquote("%") !important; }
+	$i: $i + 5;
+}
+
+
+/* corner bottom left */
+$i: 0;
+@while $i <= 50 {
+	.rds_bl_#{$i}, .rds_lb_#{$i} { border-bottom-left-radius: #{$i}px !important; }
+	
+	@if $i < 10 {
+		$i: $i + 1;
+	}
+	@else if $i <= 50 {
+		$i: $i + 5;
+	}
+}
+
+
+/* corner bottom left percent */
+$i: 5;
+@while $i <= 50 {
+	.rds_bl_#{$i}pc, .rds_lb_#{$i}pc { border-bottom-left-radius: #{$i}unquote("%") !important; }
+	$i: $i + 5;
+}
+
+
+
+
+/* corner bottom right */
+$i: 0;
+@while $i <= 50 {
+	.rds_br_#{$i}, .rds_rb_#{$i} { border-bottom-right-radius: #{$i}px !important; }
+	
+	@if $i < 10 {
+		$i: $i + 1;
+	}
+	@else if $i <= 50 {
+		$i: $i + 5;
+	}
+}
+
+
+/* corner bottom right percent */
+$i: 5;
+@while $i <= 50 {
+	.rds_br_#{$i}pc, .rds_rb_#{$i}pc { border-bottom-right-radius: #{$i}unquote("%") !important; }
+	$i: $i + 5;
+}
