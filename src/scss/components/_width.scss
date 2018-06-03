@@ -1,0 +1,113 @@
+//---> Create	:	2018.05.30
+//---> Finish	:	2018.05.30
+//---> Update	:	--
+//============================
+
+/* Width :
+===========================*/
+.w_a   		{ 	width:  auto !important; }
+.w_full   	{ 	width:  100% !important; }
+
+
+/* width px : */
+$i: 0;
+@while $i <= 1000 {
+	.w_#{$i} { width: #{$i}px !important; }
+	
+	@if $i < 50 {
+		$i: $i + 1;
+	}
+	@else if $i < 100 {
+		$i: $i + 5;
+	}
+	@else {
+		$i: $i + 50;
+	}
+}
+
+/* min-width px : */
+$i: 5;
+@while $i <= 1000 {
+	.mw_#{$i} { min-width: #{$i}px !important; }
+	@if $i < 50 {
+		$i: $i + 5;
+	}
+	@else if $i < 100 {
+		$i: $i + 10;
+	}
+	@else {
+		$i: $i + 50;
+	}
+}
+
+/* max width px : */
+$i: 5;
+@while $i <= 1000 {
+	.mxw_#{$i} { max-width: #{$i}px !important; }
+	@if $i < 50 {
+		$i: $i + 5;
+	}
+	@else if $i < 100 {
+		$i: $i + 10;
+	}
+	@else {
+		$i: $i + 50;
+	}
+}
+
+
+/* width % : */
+$i: 5;
+@while $i <= 100 {
+	.w_#{$i}pc { width: #{$i}unquote("%") !important; }
+	$i: $i + 5;
+}
+
+/* min-width % : */
+$i: 5;
+@while $i <= 100 {
+	.mw_#{$i}pc { min-width: #{$i}unquote("%") !important; }
+	$i: $i + 5;
+}
+
+/* max-width % : */
+$i: 5;
+@while $i <= 100 {
+	.mxw_#{$i}pc { max-width: #{$i}unquote("%") !important; }
+	$i: $i + 5;
+}
+
+
+/* width vw : */
+$i: 5;
+@while $i <= 100 {
+	.w_#{$i}vw { width: #{$i}vw !important; }
+	$i: $i + 5;
+}
+
+/* min-width vw : */
+$i: 5;
+@while $i <= 100 {
+	.mw_#{$i}vw { min-width: #{$i}vw !important; }
+	$i: $i + 5;
+}
+
+/* max-width vw : */
+$i: 5;
+@while $i <= 100 {
+	.mxw_#{$i}vw { max-width: #{$i}vw !important; }
+	$i: $i + 5;
+}
+
+
+/* width minus : */
+$i: 5;
+@while $i <= 300 {
+	.w_-#{$i} { width: calc(100% - #{$i}px) !important; }
+	@if $i < 100 {
+		$i: $i + 5;
+	}
+	@else {
+		$i: $i + 10;
+	}
+}

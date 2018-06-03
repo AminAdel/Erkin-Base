@@ -1,0 +1,55 @@
+//---> Create	:	2018.06.02
+//---> Finish	:	2018.06.02
+//---> Update	:	--
+/*****************************/
+
+/* Border :
+===========================*/
+// all color classes are now available at "webcolors" repository, use it near "Erkin-Base"
+
+/* border-width : */
+$i: 0;
+@while $i <= 20 {
+	.bd_#{$i} { border-width: #{$i}px; }
+	.bdt_#{$i} { border-top-width: #{$i}px !important; }
+	.bdr_#{$i} { border-right-width: #{$i}px !important; }
+	.bdb_#{$i} { border-bottom-width: #{$i}px !important; }
+	.bdl_#{$i} { border-left-width: #{$i}px !important; }
+	$i: $i + 1;
+}
+
+
+/* border-style : */
+$bd_styles: (
+	'none',
+	'hidden',
+	'dotted',
+	'dashed',
+	'solid',
+	'double',
+	'groove',
+	'ridge',
+	'inset',
+	'outset'
+);
+@each $style in $bd_styles {
+	.bd_#{$style} { border-style: #{$style}; }
+	.bdt_#{$style} { border-top-style: #{$style} !important; }
+	.bdr_#{$style} { border-right-style: #{$style} !important; }
+	.bdb_#{$style} { border-bottom-style: #{$style} !important; }
+	.bdl_#{$style} { border-left-style: #{$style} !important; }
+}
+
+
+/* Border-Spacing : */
+$i: 0;
+@while $i <= 10 {
+	.bdsp_#{$i} { border-spacing: #{$i}px !important; }
+	$i: $i + 1;
+}
+
+
+/* border-collapse : */
+.bd_collapse { border-collapse: collapse;}
+.bd_sep { border-collapse: separate;}
+

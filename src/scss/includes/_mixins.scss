@@ -1,0 +1,58 @@
+//---> Create   :   1397.03.09
+//---> Finish   :   --
+//---> Update   :   --
+//============================
+
+// not all of these needed;
+
+@mixin transition($onWhat, $time, $easing) {
+	-webkit-transition: #{$onWhat} #{$time}ms #{$easing};
+	-moz-transition: #{$onWhat} #{$time}ms #{$easing};
+	-o-transition: #{$onWhat} #{$time}ms #{$easing};
+	-ms-transition: #{$onWhat} #{$time}ms #{$easing};
+	transition: #{$onWhat} #{$time}ms #{$easing};
+}
+
+@mixin placeholder-color($color, $field : input) {
+	// learn more : https://www.templatemonster.com/help/how-to-change-the-placeholder-text-color-of-an-input.html
+	#{$field}::-webkit-input-placeholder {
+		color: $color !important;
+	}
+	#{$field}:-moz-placeholder { /* Firefox 18- */
+		color: $color !important;
+	}
+	#{$field}::-moz-placeholder {  /* Firefox 19+ */
+		color: $color !important;
+	}
+	#{$field}:-ms-input-placeholder {
+		color: $color !important;
+	}
+}
+
+@mixin user-select($value) {
+	-webkit-user-select: $value; /* Chrome, Opera, Safari */
+	-moz-user-select: $value; /* Firefox 2+ */
+	-ms-user-select: $value; /* IE 10+ */
+	user-select: $value; /* Standard syntax */
+}
+
+@mixin column-count ($columns, $gap, $rule) {
+	-webkit-column-count: #{$columns}; // 3
+	-moz-column-count: #{$columns};
+	column-count: #{$columns};
+	
+	-webkit-column-gap: #{$gap}; // 15px
+	-moz-column-gap: #{$gap};
+	column-gap: #{$gap};
+	
+	-webkit-column-rule: #{$rule}; // 0px solid #ddd
+	-moz-column-rule: #{$rule};
+	column-rule: #{$rule};
+}
+
+@mixin border-radius($radius) {
+	-webkit-border-radius: #{$radius};
+	-moz-border-radius: #{$radius};
+	-ms-border-radius: #{$radius};
+	border-radius: #{$radius};
+}

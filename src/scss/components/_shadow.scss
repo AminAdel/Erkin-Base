@@ -1,0 +1,17 @@
+//---> Create   :   2018.06.02
+//---> Finish   :   2018.06.03
+//---> Update   :   --
+/*****************************/
+
+/* Z-levels */
+.zd_0 { box-shadow: none !important; }
+.zd_1, .zd_h.zd_h_1 { box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.3) !important; }
+.zd_2, .zd_h.zd_h_2 { box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.5) !important; }
+.zd_3, .zd_h.zd_h_3 { box-shadow: 0 2px 8px -1px rgba(0, 0, 0, 0.6) !important; }
+.zd_4, .zd_h.zd_h_4 { box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.6) !important; }
+.zd_5, .zd_h.zd_h_5 { box-shadow: 0 4px 15px -2px rgba(0, 0, 0, 0.6) !important; }
+
+.zd_hoverable, .zd_h {
+	transition: box-shadow 250ms;
+	box-shadow: none;
+}

@@ -1,0 +1,52 @@
+//---> Create   :   2018.06.02
+//---> Finish   :   2018.06.02
+//---> Update   :   --
+/*****************************/
+
+/* Opacity */
+/* Hover Effect */
+.hov_op_005,
+.hov_op_01,
+.hov_op_015,
+.hov_op_02,
+.hov_op_025,
+.hov_op_03,
+.hov_op_035,
+.hov_op_04,
+.hov_op_045,
+.hov_op_05,
+.hov_op_055,
+.hov_op_06,
+.hov_op_065,
+.hov_op_07,
+.hov_op_075,
+.hov_op_08,
+.hov_op_085,
+.hov_op_09,
+.hov_op_095,
+.hov_op_1 {
+	@include transition('opacity', '250', '');
+}
+
+.op_0,      .hov_op_0:hover   { opacity: 0 !important; }
+.op_005,    .hov_op_005:hover { opacity: 0.05 !important; }
+.op_01,     .hov_op_01:hover  { opacity: 0.10 !important; }
+.op_015,    .hov_op_015:hover { opacity: 0.15 !important; }
+.op_02,     .hov_op_02:hover  { opacity: 0.20 !important; }
+.op_025,    .hov_op_025:hover { opacity: 0.25 !important; }
+.op_03,     .hov_op_03:hover  { opacity: 0.30 !important; }
+.op_035,    .hov_op_035:hover { opacity: 0.35 !important; }
+.op_04,     .hov_op_04:hover  { opacity: 0.40 !important; }
+.op_045,    .hov_op_045:hover { opacity: 0.45 !important; }
+.op_05,     .hov_op_05:hover  { opacity: 0.50 !important; }
+.op_055,    .hov_op_055:hover { opacity: 0.55 !important; }
+.op_06,     .hov_op_06:hover  { opacity: 0.60 !important; }
+.op_065,    .hov_op_065:hover { opacity: 0.65 !important; }
+.op_07,     .hov_op_07:hover  { opacity: 0.70 !important; }
+.op_075,    .hov_op_075:hover { opacity: 0.75 !important; }
+.op_08,     .hov_op_08:hover  { opacity: 0.80 !important; }
+.op_085,    .hov_op_085:hover { opacity: 0.85 !important; }
+.op_09,     .hov_op_09:hover  { opacity: 0.90 !important; }
+.op_095,    .hov_op_095:hover { opacity: 0.95 !important; }
+.op_1,      .hov_op_1:hover   { opacity:    1 !important; }
+
