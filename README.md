@@ -150,7 +150,7 @@ to apply styles bigger than 50 pixel we have 5-step sizes :
 <div class="letsp_5">letter-spacing: 5px</div>
 ```
 
-we have also alternative shorter class names :
+we also have alternative shorter class names :
 ```html
 <div class="ls_n">letter-spacing: normal</div>
 <div class="ls_1">letter-spacing: 1px</div>
@@ -172,7 +172,7 @@ we have also alternative shorter class names :
 <div class="wordsp_5">word-spacing: 5px</div>
 ```
 
-we have also alternative shorter class names :
+we also have alternative shorter class names :
 ```html
 <div class="ws_n">word-spacing: normal</div>
 <div class="ws_1">word-spacing: 1px</div>
