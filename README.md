@@ -181,3 +181,6 @@ we also have alternative shorter class names :
 <div class="ws_4">word-spacing: 4px</div>
 <div class="ws_5">word-spacing: 5px</div>
 ```
+
+
+_...writing of this document is not finished yet!_
