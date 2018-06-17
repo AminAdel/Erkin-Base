@@ -6,12 +6,12 @@ version 2 is complete rewrite of the project and is not compatible with older ve
 
 ---
 
-# quick setup
+## quick setup
 just include "Erkin-Base.min.css" file from dist folder into your web project, then you are ready to go.
 
 ---
 
-# font-size classes for "px" unit :
+## font-size classes for "px" unit :
 we have every font-size from 6px to 20px
 ```html
 <div class="fz_6">font-size is 6px</div>
@@ -31,7 +31,7 @@ for font-sizes bigger than 20 pixel we have classes in even-numbers only :
 
 ---
 
-# font-size classes for "pt" unit :
+## font-size classes for "pt" unit :
 we have every font-size from 6pt to 30pt
 ```html
 <div class="fz_6pt">font-size is 6pt</div>
@@ -43,7 +43,7 @@ we have every font-size from 6pt to 30pt
 
 ---
 
-# font-styles :
+## font-styles :
 to make italic text :
 ```html
 <div class="i">italic text</div>
@@ -67,7 +67,7 @@ to make normal text :
 
 ---
 
-# font-weight :
+## font-weight :
 ```html
 <div class="fw_100">font-weight is 100</div>
 <div class="fw_200">font-weight is 200</div>
@@ -86,7 +86,7 @@ to make normal text :
 
 ---
 
-# direction :
+## direction :
 ```html
 <div class="ltr">left to right direction</div>
 <div class="rtl">right to left direction</div>
@@ -94,8 +94,90 @@ to make normal text :
 
 ---
 
-# text-align :
+## text-align :
 ```html
-<div class="ltr">left to right direction</div>
-<div class="rtl">right to left direction</div>
+<div class="tx_r">text-align : right</div>
+<div class="tx_l">text-align : left</div>
+<div class="tx_c">text-align : center</div>
+<div class="tx_j">text-align : justify</div>
+```
+
+---
+
+## line height with no unit (default) :
+this value can be a float number like 0.8 or 1.5
+
+or can be an integer like 1 or 2
+
+to apply these styles multiply it to 100 then use it like these examples :
+```html
+<div class="lh_50">line-height: 0.5</div>
+<div class="lh_60">line-height: 0.6</div>
+<div class="lh_70">line-height: 0.7</div>
+...
+<div class="lh_290">line-height: 2.9</div>
+<div class="lh_300">line-height: 3</div>
+```
+
+## line height with "px" unit :
+we have every number between 10 to 50 pixels :
+```html
+<div class="lh_10px">line-height: 10px</div>
+<div class="lh_11px">line-height: 11px</div>
+<div class="lh_12px">line-height: 12px</div>
+...
+<div class="lh_50px">line-height: 50px</div>
+```
+
+to apply styles bigger than 50 pixel we have 5-step sizes :
+```html
+<div class="lh_55px">line-height: 55px</div>
+<div class="lh_60px">line-height: 60px</div>
+<div class="lh_65px">line-height: 65px</div>
+...
+<div class="lh_100px">line-height: 100px</div>
+```
+
+---
+
+## letter-spacing :
+```html
+<div class="letsp_n">letter-spacing: normal</div>
+<div class="letsp_1">letter-spacing: 1px</div>
+<div class="letsp_2">letter-spacing: 2px</div>
+<div class="letsp_3">letter-spacing: 3px</div>
+<div class="letsp_4">letter-spacing: 4px</div>
+<div class="letsp_5">letter-spacing: 5px</div>
+```
+
+we have also alternative shorter class names :
+```html
+<div class="ls_n">letter-spacing: normal</div>
+<div class="ls_1">letter-spacing: 1px</div>
+<div class="ls_2">letter-spacing: 2px</div>
+<div class="ls_3">letter-spacing: 3px</div>
+<div class="ls_4">letter-spacing: 4px</div>
+<div class="ls_5">letter-spacing: 5px</div>
+```
+
+---
+
+## word-spacing :
+```html
+<div class="wordsp_n">word-spacing: normal</div>
+<div class="wordsp_1">word-spacing: 1px</div>
+<div class="wordsp_2">word-spacing: 2px</div>
+<div class="wordsp_3">word-spacing: 3px</div>
+<div class="wordsp_4">word-spacing: 4px</div>
+<div class="wordsp_5">word-spacing: 5px</div>
+```
+
+we have also alternative shorter class names :
+```html
+<div class="ws_n">word-spacing: normal</div>
+<div class="ws_1">word-spacing: 1px</div>
+<div class="ws_2">word-spacing: 2px</div>
+<div class="ws_3">word-spacing: 3px</div>
+<div class="ws_4">word-spacing: 4px</div>
+<div class="ws_5">word-spacing: 5px</div>
 ```
