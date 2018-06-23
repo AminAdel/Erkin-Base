@@ -11,6 +11,50 @@ just include "Erkin-Base.min.css" file from dist folder into your web project, t
 
 ---
 
+## display :
+```html
+<div class="ds_i">display: inline</div>
+<div class="ds_b">display: block</div>
+<div class="ds_ib">display: inline-block</div>
+<div class="ds_f">display: flex</div>
+<div class="ds_if">display: inline-flex</div>
+<div class="ds_n">display: none</div>
+<div class="ds_it">display: inline-table</div>
+<div class="ds_t">display: table</div>
+<div class="ds_tr">display: table-row</div>
+<div class="ds_tc">display: table-cell</div>
+<div class="ds_li">display: list-item</div>
+```
+
+---
+
+## position :
+```html
+<div class="po_s">position: static</div>
+<div class="po_r">position: relative</div>
+<div class="po_a">position: absolute</div>
+<div class="po_f">position: fixed</div>
+<div class="fixed">position: fixed</div>
+```
+
+---
+
+## float :
+```html
+<div class="fl_r">float: right</div>
+<div class="fl_l">float: left</div>
+<div class="fl_n">float: none</div>
+```
+
+---
+
+## overflow :
+```html
+<div class="ovf_a">overflow: auto</div>
+```
+
+---
+
 ## font-size classes for "px" unit :
 we have every font-size from 6px to 20px
 ```html
@@ -182,5 +226,8 @@ we also have alternative shorter class names :
 <div class="ws_5">word-spacing: 5px</div>
 ```
 
+---
 
-_...writing of this document is not finished yet!_
+
+
+_...this document is not finished yet!_
