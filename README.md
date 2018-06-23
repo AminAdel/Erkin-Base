@@ -51,6 +51,19 @@ just include "Erkin-Base.min.css" file from dist folder into your web project, t
 ## overflow :
 ```html
 <div class="ovf_a">overflow: auto</div>
+<div class="ovf_v">overflow: visible</div>
+<div class="ovf_h">overflow: hidden</div>
+<div class="ovf_s">overflow: scroll</div>
+
+<div class="ovfx_a">overflow-x: auto</div>
+<div class="ovfx_v">overflow-x: visible</div>
+<div class="ovfx_h">overflow-x: hidden</div>
+<div class="ovfx_s">overflow-x: scroll</div>
+
+<div class="ovfy_a">overflow-y: auto</div>
+<div class="ovfy_v">overflow-y: visible</div>
+<div class="ovfy_h">overflow-y: hidden</div>
+<div class="ovfy_s">overflow-y: scroll</div>
 ```
 
 ---
