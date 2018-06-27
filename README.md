@@ -11,6 +11,8 @@ just include "Erkin-Base.min.css" file from dist folder into your web project, t
 
 ---
 
+# Layout :
+
 ### display :
 ```html
 <div class="ds_i">display: inline</div>
@@ -68,44 +70,6 @@ just include "Erkin-Base.min.css" file from dist folder into your web project, t
 
 ---
 
-### mouse cursor :
-```html
-<div class="cursor_auto">cursor: auto</div>
-<div class="cursor_pointer">cursor: pointer</div>
-<div class="cursor_default">cursor: default</div>
-<div class="cursor_none">cursor: none</div>
-<div class="cursor_text">cursor: text</div>
-<div class="cursor_wait">cursor: wait</div>
-<div class="cursor_progress">cursor: progress</div>
-```
-
-we also have alternative shorter class names :
-```html
-<div class="curs_a">cursor: auto</div>
-<div class="curs_po">cursor: pointer</div>
-<div class="curs_de">cursor: default</div>
-<div class="curs_n">cursor: none</div>
-<div class="curs_t">cursor: text</div>
-<div class="curs_w">cursor: wait</div>
-<div class="curs_pg">cursor: progress</div>
-```
-
----
-
-### vertical-align :
-```html
-<div class="va_t">vertical-align: top</div>
-<div class="va_m">vertical-align: middle</div>
-<div class="va_b">vertical-align: bottom</div>
-<div class="va_bl">vertical-align: baseline</div>
-<div class="va_sb">vertical-align: sub</div>
-<div class="va_sp">vertical-align: super</div>
-<div class="va_tt">vertical-align: text-top</div>
-<div class="va_tb">vertical-align: text-bottom</div>
-```
-
----
-
 ### z-index :
 we have every z-index from -10 ~ 15
 ```html
@@ -120,6 +84,68 @@ we have every z-index from -10 ~ 15
 ```
 
 ---
+
+# Distances :
+
+### top :
+from -100px ~ -50px : (10px steps)
+```html
+<div class="t_-100">top: -100px</div>
+<div class="t_-90">top: -90px</div>
+<div class="t_-80">top: -80px</div>
+...
+<div class="t_-50">top: -50px</div>
+```
+
+from -50px ~ -10px : (5px steps)
+```html
+<div class="t_-50">top: -50px</div>
+<div class="t_-45">top: -45px</div>
+<div class="t_-40">top: -40px</div>
+...
+<div class="t_-10">top: -10px</div>
+```
+
+from -10px ~ 10px : (1px steps)
+```html
+<div class="t_-10">top: -10px</div>
+<div class="t_-9">top: -9px</div>
+<div class="t_-8">top: -8px</div>
+...
+<div class="t_9">top: 9px</div>
+<div class="t_10">top: 10px</div>
+```
+
+from 10px ~ 50px : (5px steps)
+```html
+<div class="t_10">top: 10px</div>
+<div class="t_15">top: 15px</div>
+<div class="t_20">top: 20px</div>
+...
+<div class="t_50">top: 50px</div>
+```
+
+from 50px ~ 100px : (10px steps)
+```html
+<div class="t_50">top: 50px</div>
+<div class="t_60">top: 60px</div>
+<div class="t_70">top: 70px</div>
+...
+<div class="t_100">top: 100px</div>
+```
+
+from 100px ~ 500px : (50px steps)
+```html
+<div class="t_100">top: 100px</div>
+<div class="t_150">top: 150px</div>
+<div class="t_200">top: 200px</div>
+...
+<div class="t_500">top: 500px</div>
+```
+
+---
+
+# Text & Font :
 
 ### font-size classes for "px" unit :
 we have every font-size from 6px to 20px
@@ -293,6 +319,45 @@ we also have alternative shorter class names :
 ```
 
 ---
+
+### mouse cursor :
+```html
+<div class="cursor_auto">cursor: auto</div>
+<div class="cursor_pointer">cursor: pointer</div>
+<div class="cursor_default">cursor: default</div>
+<div class="cursor_none">cursor: none</div>
+<div class="cursor_text">cursor: text</div>
+<div class="cursor_wait">cursor: wait</div>
+<div class="cursor_progress">cursor: progress</div>
+```
+
+we also have alternative shorter class names :
+```html
+<div class="curs_a">cursor: auto</div>
+<div class="curs_po">cursor: pointer</div>
+<div class="curs_de">cursor: default</div>
+<div class="curs_n">cursor: none</div>
+<div class="curs_t">cursor: text</div>
+<div class="curs_w">cursor: wait</div>
+<div class="curs_pg">cursor: progress</div>
+```
+
+---
+
+### vertical-align :
+```html
+<div class="va_t">vertical-align: top</div>
+<div class="va_m">vertical-align: middle</div>
+<div class="va_b">vertical-align: bottom</div>
+<div class="va_bl">vertical-align: baseline</div>
+<div class="va_sb">vertical-align: sub</div>
+<div class="va_sp">vertical-align: super</div>
+<div class="va_tt">vertical-align: text-top</div>
+<div class="va_tb">vertical-align: text-bottom</div>
+```
+
+---
+
 
 
 
