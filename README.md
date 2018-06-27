@@ -144,7 +144,7 @@ from 100px ~ 500px : (50px steps)
 ```
 
 ### right, bottom, left :
-they are exactly like `"top"` classes, except that you need replace `"t_"` with :
+they are exactly like `"top"` classes, except that you need to replace `"t_"` with :
 
 `"r_"` for `"right"` positioning,
 
