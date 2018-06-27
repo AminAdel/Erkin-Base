@@ -143,6 +143,23 @@ from 100px ~ 500px : (50px steps)
 <div class="t_500">top: 500px</div>
 ```
 
+### right, bottom, left :
+they are exactly like `"top"` classes, except that you need replace `"t_"` with :
+
+`"r_"` for `"right"` positioning,
+
+`"b_"` for `"bottom"` positioning,
+
+`"l_"` for `"left"` positioning,
+
+example :
+```html
+<div class="r_100">right: 100px</div>
+<div class="b_100">bottom: 100px</div>
+<div class="l_100">left: 100px</div>
+```
+
+
 ---
 
 # Text & Font :
