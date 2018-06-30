@@ -80,21 +80,21 @@ $i: 5;
 }
 
 
-/* height vw : */
+/* height vh : */
 $i: 5;
 @while $i <= 100 {
 	.h_#{$i}vh { height: #{$i}vh !important; }
 	$i: $i + 5;
 }
 
-/* min-height vw : */
+/* min-height vh : */
 $i: 5;
 @while $i <= 100 {
 	.mh_#{$i}vh { min-height: #{$i}vh !important; }
 	$i: $i + 5;
 }
 
-/* max-height vw : */
+/* max-height vh : */
 $i: 5;
 @while $i <= 100 {
 	.mxh_#{$i}vh { max-height: #{$i}vh !important; }
