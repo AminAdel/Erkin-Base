@@ -380,6 +380,38 @@ for 100px to 300px in 10px steps :
 
 ---
 
+# Height :
+
+`"height"` classes are exactly like `"width"` classes except that you need to change class names like these :
+
+`"h_"` instead of `"w_"` for height in px unit,
+
+`"mh_"` instead of `"mw_"` for min-height in px unit,
+
+`"mxh_"` instead of `"mxw_"` for max-height in px unit,
+
+`"vh"` instead of `"vw"` for viewport unit,
+
+examples :
+```html
+<!-- unit px -->
+<div class="h_50">height: 50px</div>
+<div class="mh_50">min-height: 50px</div>
+<div class="mxh_50">max-height: 50px</div>
+
+<!-- unit % -->
+<div class="h_50pc">height: 50%</div>
+<div class="mh_50pc">min-height: 50%</div>
+<div class="mxh_50pc">max-height: 50%</div>
+
+<!-- unit vh (viewport height) -->
+<div class="h_50vh">height: 50vh</div>
+<div class="mh_50vh">min-height: 50vh</div>
+<div class="mxh_50vh">max-height: 50vh</div>
+```
+
+---
+
 # Text & Font :
 
 ### font-size classes for "px" unit :
