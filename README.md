@@ -167,6 +167,7 @@ set margin auto to sides :
 <div class="mg_a">margin-right: auto; margin-left: auto</div>
 ```
 
+### margin-top :
 we have classes for margins between -100px to 100px.
 
 from -100px to -10px in 5px steps.
@@ -211,6 +212,49 @@ example :
 <div class="mgr_100">margin-right: 100px</div>
 <div class="mgb_100">margin-bottom: 100px</div>
 <div class="mgl_100">margin-left: 100px</div>
+```
+
+---
+
+# Width :
+
+width auto :
+```html
+<div class="w_a">width: auto</div>
+```
+
+width 100% :
+```html
+<div class="w_full">width: 100%</div>
+```
+
+### width with px unit :
+
+from 0 to 50px every size :
+```html
+<div class="w_0">width: 0</div>
+<div class="w_1">width: 1px</div>
+<div class="w_2">width: 2px</div>
+...
+<div class="w_50">width: 50px</div>
+```
+
+from 50px to 100px in 5px steps :
+```html
+<div class="w_50">width: 50px</div>
+<div class="w_55">width: 55px</div>
+<div class="w_60">width: 60px</div>
+...
+<div class="w_100">width: 100px</div>
+```
+
+from 100px to 1000px in 50px steps :
+```html
+<div class="w_100">width: 100px</div>
+<div class="w_150">width: 150px</div>
+<div class="w_200">width: 200px</div>
+...
+<div class="w_1000">width: 1000px</div>
 ```
 
 ---
