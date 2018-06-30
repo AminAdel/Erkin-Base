@@ -162,6 +162,7 @@ example :
 ---
 
 # Margin :
+set margin auto to sides :
 ```html
 <div class="mg_a">margin-right: auto; margin-left: auto</div>
 ```
