@@ -216,6 +216,117 @@ example :
 
 ---
 
+# Padding :
+
+### padding for all sides :
+
+from 0 to 10px every size :
+```html
+<div class="pdn_0">padding: 0</div>
+<div class="pdn_1">padding: 1px</div>
+<div class="pdn_2">padding: 2px</div>
+...
+<div class="pdn_10">padding: 10px</div>
+```
+
+from 10px to 100px in 5px steps :
+```html
+<div class="pdn_10">padding: 10px</div>
+<div class="pdn_15">padding: 15px</div>
+<div class="pdn_20">padding: 20px</div>
+...
+<div class="pdn_100">padding: 100px</div>
+```
+
+### set padding with 2 number :
+
+`"padding"` style can work with 2 params. first one for padding top and bottom equally, and second one for right and left sides.
+```html
+<div style="padding: 10px 15px">
+	this means padding top and bottom are 10px and padding right and left are 15px
+</div>
+```
+
+to apply this type of paddings do it like these examples :
+```html
+<div class="pdn_10_15">padding: 10px 15px</div>
+```
+
+from 0 to 10px all paddings exist :
+```html
+<div class="pdn_0_10">padding: 0px 10px</div>
+<div class="pdn_1_10">padding: 1px 10px</div>
+<div class="pdn_2_10">padding: 2px 10px</div>
+...
+<div class="pdn_10_10">padding: 10px 10px</div>
+```
+
+from 10px to 50px in 5px steps :
+```html
+<div class="pdn_10_10">padding: 10px 10px</div>
+<div class="pdn_15_10">padding: 15px 10px</div>
+<div class="pdn_20_10">padding: 20px 10px</div>
+...
+<div class="pdn_50_10">padding: 50px 10px</div>
+```
+
+both numbers can change :
+```html
+<div class="pdn_0_10">padding: 0px 10px</div>
+<div class="pdn_5_15">padding: 5px 15px</div>
+<div class="pdn_20_2">padding: 20px 2px</div>
+<div class="pdn_50_8">padding: 50px 8px</div>
+```
+
+
+### padding-top :
+
+from 0 to 10px every size :
+```html
+<div class="pdnt_0">padding-top: 0px</div>
+<div class="pdnt_1">padding-top: 1px</div>
+<div class="pdnt_2">padding-top: 2px</div>
+...
+<div class="pdnt_10">padding-top: 10px</div>
+```
+
+from 10px to 100px in 5px steps :
+```html
+<div class="pdnt_10">padding-top: 10px</div>
+<div class="pdnt_15">padding-top: 15px</div>
+<div class="pdnt_20">padding-top: 20px</div>
+...
+<div class="pdnt_100">padding-top: 100px</div>
+```
+
+from 100px to 300px in 50px steps :
+```html
+<div class="pdnt_100">padding-top: 100px</div>
+<div class="pdnt_150">padding-top: 150px</div>
+<div class="pdnt_200">padding-top: 200px</div>
+...
+<div class="pdnt_300">padding-top: 300px</div>
+```
+
+### padding-right, padding-bottom, padding-left :
+
+they are exactly like `"padding-top"` classes, except that you need to replace `"pdnt_"` with :
+
+`"pdnr_"` for `"padding-right"`,
+
+`"pdnb_"` for `"padding-bottom"`,
+
+`"pdnl_"` for `"padding-left"`,
+
+examples :
+```html
+<div class="pdnr_100">padding-right: 100px</div>
+<div class="pdnb_100">padding-bottom: 100px</div>
+<div class="pdnl_100">padding-left: 100px</div>
+```
+
+---
+
 # Width :
 
 width auto :
