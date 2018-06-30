@@ -169,7 +169,7 @@ set margin auto to sides :
 
 we have classes for margins between -100px to 100px.
 
-from -100 to -10 in 5px steps.
+from -100px to -10px in 5px steps.
 ```html
 <div class="mgt_-100">margin-top: -100px</div>
 <div class="mgt_-95">margin-top: -95px</div>
