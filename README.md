@@ -286,6 +286,14 @@ from 100px to 1000px in 50px steps :
 <div class="mw_1000">min-width: 1000px</div>
 ```
 
+### max-width :
+they are exactly like `"min-width"` classes, except that you need to replace `"mw_"` with `"mxw_"`.
+
+example :
+```html
+<div class="mxw_100">max-width: 100px</div>
+```
+
 ---
 
 # Text & Font :
