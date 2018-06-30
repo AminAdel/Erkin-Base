@@ -238,7 +238,7 @@ from 10px to 100px in 5px steps :
 <div class="pdn_100">padding: 100px</div>
 ```
 
-### set padding with 2 number :
+### set padding with 2 params :
 
 `"padding"` style can work with 2 params. first one for padding top and bottom equally, and second one for right and left sides.
 ```html
@@ -281,7 +281,7 @@ both numbers can change :
 
 ### padding-top :
 
-from 0 to 10px every size :
+from 0 to 10px every size exist :
 ```html
 <div class="pdnt_0">padding-top: 0px</div>
 <div class="pdnt_1">padding-top: 1px</div>
