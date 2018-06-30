@@ -159,6 +159,58 @@ example :
 <div class="l_100">left: 100px</div>
 ```
 
+---
+
+# Margin :
+```html
+<div class="mg_a">margin-right: auto; margin-left: auto</div>
+```
+
+we have classes for margins between -100px to 100px.
+
+from -100 to -10 in 5px steps.
+```html
+<div class="mgt_-100">margin-top: -100px</div>
+<div class="mgt_-95">margin-top: -95px</div>
+<div class="mgt_-90">margin-top: -90px</div>
+...
+<div class="mgt_-10">margin-top: -10px</div>
+```
+
+from -10px to 10px all pixels exist.
+```html
+<div class="mgt_-10">margin-top: -10px</div>
+<div class="mgt_-9">margin-top: -9px</div>
+<div class="mgt_-8">margin-top: -8px</div>
+...
+<div class="mgt_9">margin-top: 9px</div>
+<div class="mgt_10">margin-top: 10px</div>
+```
+
+from 10px to 100px in 5px steps.
+```html
+<div class="mgt_10">margin-top: 10px</div>
+<div class="mgt_15">margin-top: 15px</div>
+<div class="mgt_20">margin-top: 20px</div>
+...
+<div class="mgt_100">margin-top: 100px</div>
+```
+
+### margin-right, margin-bottom, margin-left :
+they are exactly like `"margin-top"` classes, except that you need to replace `"mgt_"` with :
+
+`"mgr_"` for `"margin-right"` positioning,
+
+`"mgb_"` for `"margin-bottom"` positioning,
+
+`"mgl_"` for `"margin-left"` positioning,
+
+example :
+```html
+<div class="mgr_100">margin-right: 100px</div>
+<div class="mgb_100">margin-bottom: 100px</div>
+<div class="mgl_100">margin-left: 100px</div>
+```
 
 ---
 
