@@ -408,6 +408,9 @@ examples :
 <div class="h_50vh">height: 50vh</div>
 <div class="mh_50vh">min-height: 50vh</div>
 <div class="mxh_50vh">max-height: 50vh</div>
+
+<!-- minus height -->
+<div class="h_-100">height: calc(100% - 100px)</div>
 ```
 
 ---
