@@ -286,12 +286,96 @@ from 100px to 1000px in 50px steps :
 <div class="mw_1000">min-width: 1000px</div>
 ```
 
-### max-width :
+### max-width with px unit :
 they are exactly like `"min-width"` classes, except that you need to replace `"mw_"` with `"mxw_"`.
 
 example :
 ```html
 <div class="mxw_100">max-width: 100px</div>
+```
+
+### width with % unit :
+```html
+<div class="w_5pc">width: 5%</div>
+<div class="w_10pc">width: 10%</div>
+<div class="w_15pc">width: 15%</div>
+...
+<div class="w_100pc">width: 100%</div>
+```
+
+### min-width with % unit :
+```html
+<div class="mw_5pc">min-width: 5%</div>
+<div class="mw_10pc">min-width: 10%</div>
+<div class="mw_15pc">min-width: 15%</div>
+...
+<div class="mw_100pc">min-width: 100%</div>
+```
+
+### max-width with % unit :
+```html
+<div class="mxw_5pc">max-width: 5%</div>
+<div class="mxw_10pc">max-width: 10%</div>
+<div class="mxw_15pc">max-width: 15%</div>
+...
+<div class="mxw_100pc">max-width: 100%</div>
+```
+
+### width with vw unit :
+`"vw"` size is based on viewport size. 40vw means 40% of your browser width.
+
+```html
+<div class="w_5vw">width: 5vw</div>
+<div class="w_10vw">width: 10vw</div>
+<div class="w_15vw">width: 15vw</div>
+...
+<div class="w_100vw">width: 100vw</div>
+```
+
+### min-width with vw unit :
+```html
+<div class="mw_5vw">min-width: 5vw</div>
+<div class="mw_10vw">min-width: 10vw</div>
+<div class="mw_15vw">min-width: 15vw</div>
+...
+<div class="mw_100vw">min-width: 100vw</div>
+```
+
+### max-width with vw unit :
+```html
+<div class="mxw_5vw">max-width: 5vw</div>
+<div class="mxw_10vw">max-width: 10vw</div>
+<div class="mxw_15vw">max-width: 15vw</div>
+...
+<div class="mxw_100vw">max-width: 100vw</div>
+```
+
+### minus 100% width :
+
+imagine you have 2 elements and you know width of one of them. If you want to put them aside each other and want to take the full row, you have to use calc function like this :
+```html
+<div style="width: 200px">element A</div>
+<div style="width: calc(100% - 200px)">element B</div>
+```
+
+we have classes for that!
+
+for 5px to 100px in 5px steps :
+```html
+<div class="w_-5">width: calc(100% - 5px)</div>
+<div class="w_-10">width: calc(100% - 10px)</div>
+<div class="w_-15">width: calc(100% - 15px)</div>
+...
+<div class="w_-100">width: calc(100% - 100px)</div>
+```
+
+for 100px to 300px in 10px steps :
+```html
+<div class="w_-100">width: calc(100% - 100px)</div>
+<div class="w_-110">width: calc(100% - 110px)</div>
+<div class="w_-120">width: calc(100% - 120px)</div>
+...
+<div class="w_-300">width: calc(100% - 300px)</div>
 ```
 
 ---
