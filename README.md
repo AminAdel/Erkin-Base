@@ -257,6 +257,35 @@ from 100px to 1000px in 50px steps :
 <div class="w_1000">width: 1000px</div>
 ```
 
+### min-width with px unit :
+
+from 5px to 50px in 5px steps :
+```html
+<div class="mw_5">min-width: 5px</div>
+<div class="mw_10">min-width: 10px</div>
+<div class="mw_15">min-width: 15px</div>
+...
+<div class="mw_50">min-width: 50px</div>
+```
+
+from 50px to 100px in 10px steps :
+```html
+<div class="mw_50">min-width: 50px</div>
+<div class="mw_60">min-width: 60px</div>
+<div class="mw_70">min-width: 70px</div>
+...
+<div class="mw_100">min-width: 100px</div>
+```
+
+from 100px to 1000px in 50px steps :
+```html
+<div class="mw_100">min-width: 100px</div>
+<div class="mw_150">min-width: 150px</div>
+<div class="mw_200">min-width: 200px</div>
+...
+<div class="mw_1000">min-width: 1000px</div>
+```
+
 ---
 
 # Text & Font :
