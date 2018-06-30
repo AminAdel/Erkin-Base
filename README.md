@@ -393,7 +393,12 @@ for 100px to 300px in 10px steps :
 `"vh"` instead of `"vw"` for viewport unit,
 
 examples :
+
 ```html
+<!-- auto, full -->
+<div class="h_a">height: auto</div>
+<div class="h_full">height: 100%</div>
+
 <!-- unit px -->
 <div class="h_50">height: 50px</div>
 <div class="mh_50">min-height: 50px</div>
