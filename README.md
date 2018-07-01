@@ -855,8 +855,6 @@ examples :
 <div class="bdl_2">border-left-width: 2px</div>
 ```
 
----
-
 ### Border-Spacing :
 
 from 0px to 10px :
