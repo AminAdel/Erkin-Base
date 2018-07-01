@@ -540,6 +540,98 @@ examples :
 
 ---
 
+# Background :
+
+if you want to make a div covers parent div's area :
+```html
+<div class="w_200 h_100">
+	<div class="cover">this div also is w_200 and h_100</div>
+</div>
+```
+
+you can also use alternative class name `bg_cover` for that ... this sometimes helps to better understand codes.
+```html
+<div class="w_200 h_100">
+	<div class="bg_cover">this div also is w_200 and h_100</div>
+</div>
+```
+
+### background image to center :
+
+to set a bg image to an element and make it cover the element and be at center without repeating, use this simple class :
+```html
+<div class="bg_center" style="url('some-image.png')"></div>
+```
+
+### background-size :
+
+```html
+<div class="bgz_a">background-size: auto</div>
+<div class="bgz_cov">background-size: cover</div>
+<div class="bgz_con">background-size: contain</div>
+<div class="bgz_full">background-size: 100% 100%</div>
+<div class="bgz_full_auto">background-size: 100% auto</div>
+
+<!-- alternate short name for 'bgz_full_auto' -->
+<div class="bgz_f_a">background-size: 100% auto</div>
+```
+
+### background-repeat :
+
+```html
+<div class="bgr_n">background-repeat: no-repeat</div>
+<div class="bgr_r">background-repeat: repeat</div>
+<div class="bgr_rx">background-repeat: repeat-x</div>
+<div class="bgr_ry">background-repeat: repeat-y</div>
+```
+
+### background-attachment :
+
+```html
+<div class="bg_fix">background-attachment: fixed</div>
+```
+
+### background-position :
+
+```html
+<div class="bgp_t">background-position: top</div>
+<div class="bgp_c">background-position: center</div>
+<div class="bgp_b">background-position: bottom</div>
+<div class="bgp_l">background-position: left</div>
+<div class="bgp_r">background-position: right</div>
+
+<!-- to right -->
+<div class="bgp_rt">background-position: right top</div>
+<div class="bgp_rc">background-position: right center</div>
+<div class="bgp_rb">background-position: right bottom</div>
+
+<!-- to right (alternative classes) -->
+<div class="bgp_tr">background-position: right top</div>
+<div class="bgp_cr">background-position: right center</div>
+<div class="bgp_br">background-position: right bottom</div>
+
+<!-- to left -->
+<div class="bgp_lt">background-position: left top</div>
+<div class="bgp_lc">background-position: left center</div>
+<div class="bgp_lb">background-position: left bottom</div>
+
+<!-- to left (alternative classes) -->
+<div class="bgp_tl">background-position: left top</div>
+<div class="bgp_cl">background-position: left center</div>
+<div class="bgp_bl">background-position: left bottom</div>
+
+<!-- to center -->
+<div class="bgp_ct">background-position: center top</div>
+<div class="bgp_cc">background-position: center center</div>
+<div class="bgp_cb">background-position: center bottom</div>
+
+<!-- to center (alternative classes) -->
+<div class="bgp_tc">background-position: center top</div>
+<div class="bgp_bc">background-position: center bottom</div>
+```
+
+---
+
 # Text & Font :
 
 ### font-size classes for "px" unit :
@@ -551,6 +643,7 @@ we have every font-size from 6px to 20px
 ...
 <div class="fz_20">font-size is 20px</div>
 ```
+
 for font-sizes bigger than 20 pixel we have classes in even-numbers only :
 ```html
 <div class="fz_22">font-size is 22px</div>
@@ -563,6 +656,7 @@ for font-sizes bigger than 20 pixel we have classes in even-numbers only :
 ---
 
 ### font-size classes for "pt" unit :
+
 we have every font-size from 6pt to 30pt
 ```html
 <div class="fz_6pt">font-size is 6pt</div>
@@ -753,7 +847,13 @@ we also have alternative shorter class names :
 
 ---
 
+# Colors :
 
+we separated color classes in an independent repository here :
+
+[AminAdel/webcolors](https://github.com/AminAdel/webcolors)
+
+all coloring classes is now there. and they are great match with `"Erkin-Base"`. we strongly recommend to use it beside `"Erkin-Base"`.
 
 
 _...this document is not finished yet!_
