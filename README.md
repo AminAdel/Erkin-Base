@@ -809,6 +809,50 @@ we also have alternative shorter class names :
 
 ---
 
+# Opacity :
+
+opacity style values are between 0 to 1.
+
+0 means it is hidden and 1 means it is quite visible.
+
+we have opacity values for each 5% steps :
+```html
+<div class="op_0"  >opacity: 0</div>
+<div class="op_005">opacity: 0.05</div>
+<div class="op_01" >opacity: 0.10</div>
+<div class="op_015">opacity: 0.15</div>
+<div class="op_02" >opacity: 0.20</div>
+<div class="op_025">opacity: 0.25</div>
+<div class="op_03" >opacity: 0.30</div>
+<div class="op_035">opacity: 0.35</div>
+<div class="op_04" >opacity: 0.40</div>
+<div class="op_045">opacity: 0.45</div>
+<div class="op_05" >opacity: 0.50</div>
+<div class="op_055">opacity: 0.55</div>
+<div class="op_06" >opacity: 0.60</div>
+<div class="op_065">opacity: 0.65</div>
+<div class="op_07" >opacity: 0.70</div>
+<div class="op_075">opacity: 0.75</div>
+<div class="op_080">opacity: 0.80</div>
+<div class="op_085">opacity: 0.85</div>
+<div class="op_09" >opacity: 0.90</div>
+<div class="op_095">opacity: 0.95</div>
+<div class="op_1"  >opacity: 1</div>
+```
+
+### opacity hover effect :
+
+you can easily apply opacity hover effects with adding `"hov_"` to beginning of above classes.
+
+examples :
+```html
+<div class="hov_op_05">
+	when mouse hovers, opacity will be 0.05 with speed of 250ms.
+</div>
+```
+
+---
+
 ### mouse cursor :
 ```html
 <div class="cursor_auto">cursor: auto</div>
