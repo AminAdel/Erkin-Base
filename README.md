@@ -809,6 +809,75 @@ we also have alternative shorter class names :
 
 ---
 
+# Border :
+
+### border-width :
+
+from 0px to 20px :
+```html
+<div class="bd_0">border-width: 0</div>
+<div class="bd_1">border-width: 1px</div>
+<div class="bd_2">border-width: 2px</div>
+...
+<div class="bd_20">border-width: 20px</div>
+```
+
+### border-style :
+
+```html
+<div class="bd_none">border-style: none</div>
+<div class="bd_hidden">border-style: hidden</div>
+<div class="bd_dotted">border-style: dotted</div>
+<div class="bd_dashed">border-style: dashed</div>
+<div class="bd_solid">border-style: solid</div>
+<div class="bd_double">border-style: double</div>
+<div class="bd_groove">border-style: groove</div>
+<div class="bd_ridge">border-style: ridge</div>
+<div class="bd_inset">border-style: inset</div>
+<div class="bd_outset">border-style: outset</div>
+```
+
+to set border styles for specific side just replace `"bd_"` with :
+
+`"bdt_"` for border-top,
+
+`"bdr_"` for border-right,
+
+`"bdb_"` for border-bottom,
+
+`"bdl_"` for border-left,
+
+examples :
+```html
+<div class="bdt_dashed">border-top-style: dashed</div>
+<div class="bdr_solid">border-right-style: solid</div>
+<div class="bdb_2">border-bottom-width: 2px</div>
+<div class="bdl_2">border-left-width: 2px</div>
+```
+
+---
+
+### Border-Spacing :
+
+from 0px to 10px :
+```html
+<div class="bdsp_0">border-spacing: 0px</div>
+<div class="bdsp_1">border-spacing: 1px</div>
+<div class="bdsp_2">border-spacing: 2px</div>
+...
+<div class="bdsp_10">border-spacing: 10px</div>
+```
+
+### border-collapse :
+
+```html
+<div class="bd_collapse">border-collapse: collapse</div>
+<div class="bd_sep">border-collapse: separate</div>
+```
+
+
+---
+
 # Opacity :
 
 opacity style values are between 0 to 1.
