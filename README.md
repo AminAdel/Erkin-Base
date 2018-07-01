@@ -406,6 +406,8 @@ example :
 ```
 
 ### width with % unit :
+
+from 0 to 100 in 5 steps :
 ```html
 <div class="w_5pc">width: 5%</div>
 <div class="w_10pc">width: 10%</div>
@@ -415,6 +417,8 @@ example :
 ```
 
 ### min-width with % unit :
+
+from 0 to 100 in 5 steps :
 ```html
 <div class="mw_5pc">min-width: 5%</div>
 <div class="mw_10pc">min-width: 10%</div>
@@ -424,6 +428,8 @@ example :
 ```
 
 ### max-width with % unit :
+
+from 0 to 100 in 5 steps :
 ```html
 <div class="mxw_5pc">max-width: 5%</div>
 <div class="mxw_10pc">max-width: 10%</div>
@@ -433,6 +439,7 @@ example :
 ```
 
 ### width with vw unit :
+
 `"vw"` size is based on viewport size. 40vw means 40% of your browser width.
 
 ```html
@@ -444,6 +451,7 @@ example :
 ```
 
 ### min-width with vw unit :
+
 ```html
 <div class="mw_5vw">min-width: 5vw</div>
 <div class="mw_10vw">min-width: 10vw</div>
@@ -453,6 +461,7 @@ example :
 ```
 
 ### max-width with vw unit :
+
 ```html
 <div class="mxw_5vw">max-width: 5vw</div>
 <div class="mxw_10vw">max-width: 10vw</div>
@@ -480,7 +489,7 @@ for 5px to 100px in 5px steps :
 <div class="w_-100">width: calc(100% - 100px)</div>
 ```
 
-for 100px to 300px in 10px steps :
+for -100px to -300px in 10px steps :
 ```html
 <div class="w_-100">width: calc(100% - 100px)</div>
 <div class="w_-110">width: calc(100% - 110px)</div>
