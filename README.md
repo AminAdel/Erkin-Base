@@ -1142,7 +1142,7 @@ just add zd_h or zd_hoverable, then add second shadow level
 <div class="zd_0 zd_h zd_h_5">when mouse hovers changes from 0 to 5</div>
 ```
 
-you can change from any level to any level :
+you can change from any level to any level with mouse hover :
 
 ```html
 <div class="zd_1 zd_h zd_h_3">when mouse hovers changes from 1 to 3</div>
@@ -1150,6 +1150,43 @@ you can change from any level to any level :
 <div class="zd_5 zd_h zd_h_0">when mouse hovers changes from 5 to 0</div>
 <div class="zd_4 zd_h zd_h_2">when mouse hovers changes from 4 to 2</div>
 <div class="zd_1 zd_h zd_h_5">when mouse hovers changes from 1 to 5</div>
+```
+
+---
+
+# Transform Rotate :
+
+from 45deg to 360deg in 45deg steps :
+
+```html
+<div class="rot_45">45deg rotate</div>
+<div class="rot_90">90deg rotate</div>
+<div class="rot_135">135deg rotate</div>
+<div class="rot_180">180deg rotate</div>
+<div class="rot_225">225deg rotate</div>
+<div class="rot_270">270deg rotate</div>
+<div class="rot_315">315deg rotate</div>
+<div class="rot_360">360deg rotate</div>
+```
+
+you can change from any rotate deg to any other deg with mouse hover :
+
+```html
+<div class="hover_rot_45">when mouse hovers rotates to 45deg</div>
+<div class="hover_rot_90">when mouse hovers rotates to 90deg</div>
+<div class="hover_rot_135">when mouse hovers rotates to 135deg</div>
+<div class="hover_rot_180">when mouse hovers rotates to 180deg</div>
+<div class="hover_rot_225">when mouse hovers rotates to 225deg</div>
+<div class="hover_rot_270">when mouse hovers rotates to 270deg</div>
+<div class="hover_rot_315">when mouse hovers rotates to 315deg</div>
+<div class="hover_rot_360">when mouse hovers rotates to 360deg</div>
+```
+
+more examples :
+
+```html
+<div class="rot_45 hover_rot_90">when mouse hovers rotates from 45deg to 90deg</div>
+<div class="rot_180 hover_rot_270">when mouse hovers rotates from 180deg to 270deg</div>
 ```
 
 ---
