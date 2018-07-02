@@ -1198,6 +1198,3 @@ we separated color classes in an independent repository here :
 [AminAdel/webcolors](https://github.com/AminAdel/webcolors)
 
 all coloring classes is now there. and they are great match with `"Erkin-Base"`. we strongly recommend to use it beside `"Erkin-Base"`.
-
-
-_...this document is not finished yet!_
