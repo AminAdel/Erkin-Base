@@ -1063,6 +1063,60 @@ we also have alternative shorter class names :
 
 ---
 
+# Filters :
+
+### filter grayscale :
+
+from 10% to 100% :
+
+```html
+<div class="filter_gray_10">filter: grayscale(0.1)</div>
+<div class="filter_gray_20">filter: grayscale(0.2)</div>
+<div class="filter_gray_30">filter: grayscale(0.3)</div>
+...
+<div class="filter_gray_100">filter: grayscale(1)</div>
+```
+
+there is an alternative class for greyscale(1) :
+
+```html
+<div class="filter_gray">filter: grayscale(1)</div>
+```
+
+### filter blur :
+
+from 0px to 10px :
+
+```html
+<div class="filter_blur_0">filter: blur(0px)</div>
+<div class="filter_blur_1">filter: blur(1px)</div>
+<div class="filter_blur_2">filter: blur(2px)</div>
+...
+<div class="filter_blur_10">filter: blur(10px)</div>
+```
+
+_should we extend to more than 10px?_
+
+### filter sepia :
+
+from 10% to 100% :
+
+```html
+<div class="filter_sepia_10">filter: sepia(0.1)</div>
+<div class="filter_sepia_20">filter: sepia(0.2)</div>
+<div class="filter_sepia_30">filter: sepia(0.3)</div>
+...
+<div class="filter_sepia_100">filter: sepia(1)</div>
+```
+
+there is an alternative class for sepia(1) :
+
+```html
+<div class="filter_sepia">filter: sepia(1)</div>
+```
+
+---
+
 # Colors :
 
 we separated color classes in an independent repository here :
