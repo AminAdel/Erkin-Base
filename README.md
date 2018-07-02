@@ -873,6 +873,109 @@ from 0px to 10px :
 <div class="bd_sep">border-collapse: separate</div>
 ```
 
+### border-radius with px unit (default) :
+
+from 0 to 10px every size :
+```html
+<div class="rds_0">border-radius: 0px</div>
+<div class="rds_1">border-radius: 1px</div>
+<div class="rds_2">border-radius: 2px</div>
+...
+<div class="rds_10">border-radius: 10px</div>
+```
+
+from 10px to 50px in 5px steps :
+```html
+<div class="rds_10">border-radius: 10px</div>
+<div class="rds_15">border-radius: 15px</div>
+<div class="rds_20">border-radius: 20px</div>
+...
+<div class="rds_50">border-radius: 50px</div>
+```
+
+### border-radius with % unit :
+
+just add `"pc"` after classnames. and they are from 0 to 100 in 5% steps :
+```html
+<div class="rds_5">border-radius: 5px</div>
+<div class="rds_10">border-radius: 10px</div>
+<div class="rds_15">border-radius: 15px</div>
+...
+<div class="rds_100">border-radius: 100px</div>
+```
+
+### border radius for each side :
+
+they are like normal border-radius classes, but you need to add some changes :
+
+add these after `"rds"`
+
+`"tl"` and `"lt"` for top left,
+
+`"tr"` and `"rt"` for top right,
+
+`"bl"` and `"lb"` for bottom left,
+
+`"br"` and `"bt"` for bottom right,
+
+for example to apply border-top-left-radius as 5px do it like this :
+```html
+<div class="rdstl_5">border-top-left-radius: 5px</div>
+```
+
+or as alternative class for that :
+```html
+<div class="rdslt_5">border-top-left-radius: 5px</div>
+```
+
+and for % unit :
+```html
+<div class="rdstl_5pc">border-top-left-radius: 5%</div>
+```
+
+or as alternative class for that :
+```html
+<div class="rdslt_5pc">border-top-left-radius: 5%</div>
+```
+
+---
+
+# Outline :
+
+### outline-width :
+
+we have sizes from 0 to 10px :
+
+```html
+<div class="ot_0">outline-width: 0px</div>
+<div class="ot_1">outline-width: 1px</div>
+<div class="ot_2">outline-width: 2px</div>
+...
+<div class="ot_10">outline-width: 10px</div>
+```
+
+and also these :
+
+```html
+<div class="ot_thin">outline-width: thin</div>
+<div class="ot_medium">outline-width: medium</div>
+<div class="ot_thick">outline-width: thick</div>
+```
+
+### outline-style :
+
+```html
+<div class="ot_none">outline-style: none</div>
+<div class="ot_hidden">outline-style: hidden</div>
+<div class="ot_dotted">outline-style: dotted</div>
+<div class="ot_dashed">outline-style: dashed</div>
+<div class="ot_solid">outline-style: solid</div>
+<div class="ot_double">outline-style: double</div>
+<div class="ot_groove">outline-style: groove</div>
+<div class="ot_ridge">outline-style: ridge</div>
+<div class="ot_inset">outline-style: inset</div>
+<div class="ot_outset">outline-style: outset</div>
+```
 
 ---
 
@@ -921,6 +1024,7 @@ examples :
 ---
 
 ### mouse cursor :
+
 ```html
 <div class="cursor_auto">cursor: auto</div>
 <div class="cursor_pointer">cursor: pointer</div>
@@ -945,6 +1049,7 @@ we also have alternative shorter class names :
 ---
 
 ### vertical-align :
+
 ```html
 <div class="va_t">vertical-align: top</div>
 <div class="va_m">vertical-align: middle</div>
