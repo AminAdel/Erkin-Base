@@ -1117,6 +1117,43 @@ there is an alternative class for sepia(1) :
 
 ---
 
+# Material Shadows :
+
+we added several shadow levels. they are numbered from 0 to 5.
+
+```html
+<div class="zd_0">without shadow</div>
+<div class="zd_1">shadow level 1</div>
+<div class="zd_2">shadow level 2</div>
+<div class="zd_3">shadow level 3</div>
+<div class="zd_4">shadow level 4</div>
+<div class="zd_5">shadow level 5</div>
+```
+
+and we can make them change when mouse hovers :
+
+just add zd_h or zd_hoverable, then add second shadow level
+
+```html
+<div class="zd_0 zd_h zd_h_1">when mouse hovers changes from 0 to 1</div>
+<div class="zd_0 zd_h zd_h_2">when mouse hovers changes from 0 to 2</div>
+<div class="zd_0 zd_h zd_h_3">when mouse hovers changes from 0 to 3</div>
+<div class="zd_0 zd_h zd_h_4">when mouse hovers changes from 0 to 4</div>
+<div class="zd_0 zd_h zd_h_5">when mouse hovers changes from 0 to 5</div>
+```
+
+you can change from any level to any level :
+
+```html
+<div class="zd_1 zd_h zd_h_3">when mouse hovers changes from 1 to 3</div>
+<div class="zd_2 zd_h zd_h_5">when mouse hovers changes from 2 to 5</div>
+<div class="zd_5 zd_h zd_h_0">when mouse hovers changes from 5 to 0</div>
+<div class="zd_4 zd_h zd_h_2">when mouse hovers changes from 4 to 2</div>
+<div class="zd_1 zd_h zd_h_5">when mouse hovers changes from 1 to 5</div>
+```
+
+---
+
 # Colors :
 
 we separated color classes in an independent repository here :
