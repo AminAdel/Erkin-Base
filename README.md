@@ -1,4 +1,4 @@
-# Erkin-Base version 2.0.3
+# Erkin-Base version 2.0.4
 
 Web frontend practical style classes. Useful near bootstrap and other UI frameworks.
 
@@ -96,7 +96,7 @@ there are also alternative shorter class names :
 
 ### z-index :
 
-we have every z-index from -10 ~ 15 :
+we have every z-index from -10 ~ 30 :
 
 ```html
 <div class="z_-10">z-index: -10</div>
@@ -106,7 +106,7 @@ we have every z-index from -10 ~ 15 :
 <div class="z_0">z-index: 0</div>
 <div class="z_1">z-index: 1</div>
 ...
-<div class="z_15">z-index: 15</div>
+<div class="z_30">z-index: 30</div>
 ```
 
 ---
