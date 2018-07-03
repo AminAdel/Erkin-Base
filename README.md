@@ -1,12 +1,13 @@
 # Erkin-Base version 2.0.2
+
 Web frontend practical style classes. Useful near bootstrap and other UI frameworks.
 
 version 2 is complete rewrite of the project and is not compatible with older versions.
 
-
 ---
 
 ### quick setup
+
 just include "Erkin-Base.min.css" file from dist folder into your web project, then you are ready to go.
 
 ---
@@ -14,6 +15,7 @@ just include "Erkin-Base.min.css" file from dist folder into your web project, t
 # Layout :
 
 ### display :
+
 ```html
 <div class="ds_i">display: inline</div>
 <div class="ds_b">display: block</div>
@@ -31,6 +33,7 @@ just include "Erkin-Base.min.css" file from dist folder into your web project, t
 ---
 
 ### position :
+
 ```html
 <div class="po_s">position: static</div>
 <div class="po_r">position: relative</div>
@@ -42,6 +45,7 @@ just include "Erkin-Base.min.css" file from dist folder into your web project, t
 ---
 
 ### float :
+
 ```html
 <div class="fl_r">float: right</div>
 <div class="fl_l">float: left</div>
@@ -51,6 +55,7 @@ just include "Erkin-Base.min.css" file from dist folder into your web project, t
 ---
 
 ### overflow :
+
 ```html
 <div class="ovf_a">overflow: auto</div>
 <div class="ovf_v">overflow: visible</div>
@@ -68,10 +73,31 @@ just include "Erkin-Base.min.css" file from dist folder into your web project, t
 <div class="ovfy_s">overflow-y: scroll</div>
 ```
 
+there are also alternative shorter class names :
+
+```html
+<div class="of_a">overflow: auto</div>
+<div class="of_v">overflow: visible</div>
+<div class="of_h">overflow: hidden</div>
+<div class="of_s">overflow: scroll</div>
+
+<div class="ofx_a">overflow-x: auto</div>
+<div class="ofx_v">overflow-x: visible</div>
+<div class="ofx_h">overflow-x: hidden</div>
+<div class="ofx_s">overflow-x: scroll</div>
+
+<div class="ofy_a">overflow-y: auto</div>
+<div class="ofy_v">overflow-y: visible</div>
+<div class="ofy_h">overflow-y: hidden</div>
+<div class="ofy_s">overflow-y: scroll</div>
+```
+
 ---
 
 ### z-index :
-we have every z-index from -10 ~ 15
+
+we have every z-index from -10 ~ 15 :
+
 ```html
 <div class="z_-10">z-index: -10</div>
 <div class="z_-9">z-index: -9</div>
@@ -88,7 +114,9 @@ we have every z-index from -10 ~ 15
 # Distances :
 
 ### top :
-from -100px ~ -50px : (10px steps)
+
+from -100px ~ -50px : (10px steps) :
+
 ```html
 <div class="t_-100">top: -100px</div>
 <div class="t_-90">top: -90px</div>
@@ -97,7 +125,8 @@ from -100px ~ -50px : (10px steps)
 <div class="t_-50">top: -50px</div>
 ```
 
-from -50px ~ -10px : (5px steps)
+from -50px ~ -10px : (5px steps) :
+
 ```html
 <div class="t_-50">top: -50px</div>
 <div class="t_-45">top: -45px</div>
@@ -106,7 +135,8 @@ from -50px ~ -10px : (5px steps)
 <div class="t_-10">top: -10px</div>
 ```
 
-from -10px ~ 10px : (1px steps)
+from -10px ~ 10px : (1px steps) :
+
 ```html
 <div class="t_-10">top: -10px</div>
 <div class="t_-9">top: -9px</div>
@@ -116,7 +146,8 @@ from -10px ~ 10px : (1px steps)
 <div class="t_10">top: 10px</div>
 ```
 
-from 10px ~ 50px : (5px steps)
+from 10px ~ 50px : (5px steps) :
+
 ```html
 <div class="t_10">top: 10px</div>
 <div class="t_15">top: 15px</div>
@@ -125,7 +156,8 @@ from 10px ~ 50px : (5px steps)
 <div class="t_50">top: 50px</div>
 ```
 
-from 50px ~ 100px : (10px steps)
+from 50px ~ 100px : (10px steps) :
+
 ```html
 <div class="t_50">top: 50px</div>
 <div class="t_60">top: 60px</div>
@@ -134,7 +166,8 @@ from 50px ~ 100px : (10px steps)
 <div class="t_100">top: 100px</div>
 ```
 
-from 100px ~ 500px : (50px steps)
+from 100px ~ 500px : (50px steps) :
+
 ```html
 <div class="t_100">top: 100px</div>
 <div class="t_150">top: 150px</div>
@@ -144,6 +177,7 @@ from 100px ~ 500px : (50px steps)
 ```
 
 ### right, bottom, left :
+
 they are exactly like `"top"` classes, except that you need to replace `"t_"` with :
 
 `"r_"` for `"right"` positioning,
@@ -153,6 +187,7 @@ they are exactly like `"top"` classes, except that you need to replace `"t_"` wi
 `"l_"` for `"left"` positioning,
 
 example :
+
 ```html
 <div class="r_100">right: 100px</div>
 <div class="b_100">bottom: 100px</div>
@@ -162,15 +197,19 @@ example :
 ---
 
 # Margin :
+
 set margin auto to sides :
+
 ```html
 <div class="mg_a">margin-right: auto; margin-left: auto</div>
 ```
 
 ### margin-top :
+
 we have classes for margins between -100px to 100px.
 
-from -100px to -10px in 5px steps.
+from -100px to -10px in 5px steps :
+
 ```html
 <div class="mgt_-100">margin-top: -100px</div>
 <div class="mgt_-95">margin-top: -95px</div>
@@ -179,7 +218,8 @@ from -100px to -10px in 5px steps.
 <div class="mgt_-10">margin-top: -10px</div>
 ```
 
-from -10px to 10px all pixels exist.
+from -10px to 10px all pixels exist :
+
 ```html
 <div class="mgt_-10">margin-top: -10px</div>
 <div class="mgt_-9">margin-top: -9px</div>
@@ -189,7 +229,8 @@ from -10px to 10px all pixels exist.
 <div class="mgt_10">margin-top: 10px</div>
 ```
 
-from 10px to 100px in 5px steps.
+from 10px to 100px in 5px steps :
+
 ```html
 <div class="mgt_10">margin-top: 10px</div>
 <div class="mgt_15">margin-top: 15px</div>
@@ -199,6 +240,7 @@ from 10px to 100px in 5px steps.
 ```
 
 ### margin-right, margin-bottom, margin-left :
+
 they are exactly like `"margin-top"` classes, except that you need to replace `"mgt_"` with :
 
 `"mgr_"` for `"margin-right"` positioning,
@@ -208,6 +250,7 @@ they are exactly like `"margin-top"` classes, except that you need to replace `"
 `"mgl_"` for `"margin-left"` positioning,
 
 example :
+
 ```html
 <div class="mgr_100">margin-right: 100px</div>
 <div class="mgb_100">margin-bottom: 100px</div>
@@ -221,6 +264,7 @@ example :
 ### padding for all sides :
 
 from 0 to 10px every size :
+
 ```html
 <div class="pdn_0">padding: 0</div>
 <div class="pdn_1">padding: 1px</div>
@@ -230,6 +274,7 @@ from 0 to 10px every size :
 ```
 
 from 10px to 100px in 5px steps :
+
 ```html
 <div class="pdn_10">padding: 10px</div>
 <div class="pdn_15">padding: 15px</div>
@@ -241,6 +286,7 @@ from 10px to 100px in 5px steps :
 ### set padding with 2 params :
 
 `"padding"` style can work with 2 params. first one for padding top and bottom equally, and second one for right and left sides.
+
 ```html
 <div style="padding: 10px 15px">
 	this means padding top and bottom are 10px and padding right and left are 15px
@@ -248,11 +294,13 @@ from 10px to 100px in 5px steps :
 ```
 
 to apply this type of paddings do it like these examples :
+
 ```html
 <div class="pdn_10_15">padding: 10px 15px</div>
 ```
 
 from 0 to 10px all paddings exist :
+
 ```html
 <div class="pdn_0_10">padding: 0px 10px</div>
 <div class="pdn_1_10">padding: 1px 10px</div>
@@ -262,6 +310,7 @@ from 0 to 10px all paddings exist :
 ```
 
 from 10px to 50px in 5px steps :
+
 ```html
 <div class="pdn_10_10">padding: 10px 10px</div>
 <div class="pdn_15_10">padding: 15px 10px</div>
@@ -271,6 +320,7 @@ from 10px to 50px in 5px steps :
 ```
 
 both numbers can change :
+
 ```html
 <div class="pdn_0_10">padding: 0px 10px</div>
 <div class="pdn_5_15">padding: 5px 15px</div>
@@ -282,6 +332,7 @@ both numbers can change :
 ### padding-top :
 
 from 0 to 10px every size exist :
+
 ```html
 <div class="pdnt_0">padding-top: 0px</div>
 <div class="pdnt_1">padding-top: 1px</div>
@@ -291,6 +342,7 @@ from 0 to 10px every size exist :
 ```
 
 from 10px to 100px in 5px steps :
+
 ```html
 <div class="pdnt_10">padding-top: 10px</div>
 <div class="pdnt_15">padding-top: 15px</div>
@@ -300,6 +352,7 @@ from 10px to 100px in 5px steps :
 ```
 
 from 100px to 300px in 50px steps :
+
 ```html
 <div class="pdnt_100">padding-top: 100px</div>
 <div class="pdnt_150">padding-top: 150px</div>
@@ -319,6 +372,7 @@ they are exactly like `"padding-top"` classes, except that you need to replace `
 `"pdnl_"` for `"padding-left"`,
 
 examples :
+
 ```html
 <div class="pdnr_100">padding-right: 100px</div>
 <div class="pdnb_100">padding-bottom: 100px</div>
@@ -330,11 +384,13 @@ examples :
 # Width :
 
 width auto :
+
 ```html
 <div class="w_a">width: auto</div>
 ```
 
 width 100% :
+
 ```html
 <div class="w_full">width: 100%</div>
 ```
@@ -342,6 +398,7 @@ width 100% :
 ### width with px unit :
 
 from 0 to 50px every size :
+
 ```html
 <div class="w_0">width: 0</div>
 <div class="w_1">width: 1px</div>
@@ -351,6 +408,7 @@ from 0 to 50px every size :
 ```
 
 from 50px to 100px in 5px steps :
+
 ```html
 <div class="w_50">width: 50px</div>
 <div class="w_55">width: 55px</div>
@@ -360,6 +418,7 @@ from 50px to 100px in 5px steps :
 ```
 
 from 100px to 1000px in 50px steps :
+
 ```html
 <div class="w_100">width: 100px</div>
 <div class="w_150">width: 150px</div>
@@ -371,6 +430,7 @@ from 100px to 1000px in 50px steps :
 ### min-width with px unit :
 
 from 5px to 50px in 5px steps :
+
 ```html
 <div class="mw_5">min-width: 5px</div>
 <div class="mw_10">min-width: 10px</div>
@@ -380,6 +440,7 @@ from 5px to 50px in 5px steps :
 ```
 
 from 50px to 100px in 10px steps :
+
 ```html
 <div class="mw_50">min-width: 50px</div>
 <div class="mw_60">min-width: 60px</div>
@@ -389,6 +450,7 @@ from 50px to 100px in 10px steps :
 ```
 
 from 100px to 1000px in 50px steps :
+
 ```html
 <div class="mw_100">min-width: 100px</div>
 <div class="mw_150">min-width: 150px</div>
@@ -398,9 +460,11 @@ from 100px to 1000px in 50px steps :
 ```
 
 ### max-width with px unit :
+
 they are exactly like `"min-width"` classes, except that you need to replace `"mw_"` with `"mxw_"`.
 
 example :
+
 ```html
 <div class="mxw_100">max-width: 100px</div>
 ```
@@ -408,6 +472,7 @@ example :
 ### width with % unit :
 
 from 0 to 100 in 5 steps :
+
 ```html
 <div class="w_5pc">width: 5%</div>
 <div class="w_10pc">width: 10%</div>
@@ -419,6 +484,7 @@ from 0 to 100 in 5 steps :
 ### min-width with % unit :
 
 from 0 to 100 in 5 steps :
+
 ```html
 <div class="mw_5pc">min-width: 5%</div>
 <div class="mw_10pc">min-width: 10%</div>
@@ -430,6 +496,7 @@ from 0 to 100 in 5 steps :
 ### max-width with % unit :
 
 from 0 to 100 in 5 steps :
+
 ```html
 <div class="mxw_5pc">max-width: 5%</div>
 <div class="mxw_10pc">max-width: 10%</div>
@@ -473,6 +540,7 @@ from 0 to 100 in 5 steps :
 ### minus 100% width :
 
 imagine you have 2 elements and you know width of one of them. If you want to put them aside each other and want to take the full row, you have to use calc function like this :
+
 ```html
 <div style="width: 200px">element A</div>
 <div style="width: calc(100% - 200px)">element B</div>
@@ -481,6 +549,7 @@ imagine you have 2 elements and you know width of one of them. If you want to pu
 we have classes for that!
 
 for 5px to 100px in 5px steps :
+
 ```html
 <div class="w_-5">width: calc(100% - 5px)</div>
 <div class="w_-10">width: calc(100% - 10px)</div>
@@ -490,6 +559,7 @@ for 5px to 100px in 5px steps :
 ```
 
 for -100px to -300px in 10px steps :
+
 ```html
 <div class="w_-100">width: calc(100% - 100px)</div>
 <div class="w_-110">width: calc(100% - 110px)</div>
@@ -543,6 +613,7 @@ examples :
 # Background :
 
 if you want to make a div covers parent div's area :
+
 ```html
 <div class="w_200 h_100">
 	<div class="cover">this div also is w_200 and h_100</div>
@@ -550,6 +621,7 @@ if you want to make a div covers parent div's area :
 ```
 
 you can also use alternative class name `bg_cover` for that ... this sometimes helps to better understand codes.
+
 ```html
 <div class="w_200 h_100">
 	<div class="bg_cover">this div also is w_200 and h_100</div>
@@ -559,6 +631,7 @@ you can also use alternative class name `bg_cover` for that ... this sometimes h
 ### background image to center :
 
 to set a bg image to an element and make it cover the element and be at center without repeating, use this simple class :
+
 ```html
 <div class="bg_center" style="url('some-image.png')"></div>
 ```
@@ -635,7 +708,9 @@ to set a bg image to an element and make it cover the element and be at center w
 # Text & Font :
 
 ### font-size classes for "px" unit :
-we have every font-size from 6px to 20px
+
+we have every font-size from 6px to 20px :
+
 ```html
 <div class="fz_6">font-size is 6px</div>
 <div class="fz_7">font-size is 7px</div>
@@ -645,6 +720,7 @@ we have every font-size from 6px to 20px
 ```
 
 for font-sizes bigger than 20 pixel we have classes in even-numbers only :
+
 ```html
 <div class="fz_22">font-size is 22px</div>
 <div class="fz_24">font-size is 24px</div>
@@ -657,7 +733,8 @@ for font-sizes bigger than 20 pixel we have classes in even-numbers only :
 
 ### font-size classes for "pt" unit :
 
-we have every font-size from 6pt to 30pt
+we have every font-size from 6pt to 30pt :
+
 ```html
 <div class="fz_6pt">font-size is 6pt</div>
 <div class="fz_7pt">font-size is 7pt</div>
@@ -669,7 +746,9 @@ we have every font-size from 6pt to 30pt
 ---
 
 ### font-styles :
+
 to make italic text :
+
 ```html
 <div class="i">italic text</div>
 <div class="italic">italic text</div>
@@ -677,6 +756,7 @@ to make italic text :
 ```
 
 to make bold text :
+
 ```html
 <div class="b">bold text</div>
 <div class="bold">bold text</div>
@@ -684,6 +764,7 @@ to make bold text :
 ```
 
 to make normal text :
+
 ```html
 <div class="n">normal text</div>
 <div class="normal">normal text</div>
@@ -693,6 +774,7 @@ to make normal text :
 ---
 
 ### font-weight :
+
 ```html
 <div class="fw_100">font-weight is 100</div>
 <div class="fw_200">font-weight is 200</div>
@@ -712,6 +794,7 @@ to make normal text :
 ---
 
 ### direction :
+
 ```html
 <div class="ltr">left to right direction</div>
 <div class="rtl">right to left direction</div>
@@ -720,6 +803,7 @@ to make normal text :
 ---
 
 ### text-align :
+
 ```html
 <div class="tx_r">text-align : right</div>
 <div class="tx_l">text-align : left</div>
@@ -730,11 +814,13 @@ to make normal text :
 ---
 
 ### line height with no unit (default) :
+
 this value can be a float number like 0.8 or 1.5
 
 or can be an integer like 1 or 2
 
 to apply these styles multiply it to 100 then use it like these examples :
+
 ```html
 <div class="lh_50">line-height: 0.5</div>
 <div class="lh_60">line-height: 0.6</div>
@@ -745,7 +831,9 @@ to apply these styles multiply it to 100 then use it like these examples :
 ```
 
 ### line height with "px" unit :
+
 we have every number between 10 to 50 pixels :
+
 ```html
 <div class="lh_10px">line-height: 10px</div>
 <div class="lh_11px">line-height: 11px</div>
@@ -755,6 +843,7 @@ we have every number between 10 to 50 pixels :
 ```
 
 to apply styles bigger than 50 pixel we have 5-step sizes :
+
 ```html
 <div class="lh_55px">line-height: 55px</div>
 <div class="lh_60px">line-height: 60px</div>
@@ -766,6 +855,7 @@ to apply styles bigger than 50 pixel we have 5-step sizes :
 ---
 
 ### letter-spacing :
+
 ```html
 <div class="letsp_n">letter-spacing: normal</div>
 <div class="letsp_1">letter-spacing: 1px</div>
@@ -776,6 +866,7 @@ to apply styles bigger than 50 pixel we have 5-step sizes :
 ```
 
 we also have alternative shorter class names :
+
 ```html
 <div class="ls_n">letter-spacing: normal</div>
 <div class="ls_1">letter-spacing: 1px</div>
@@ -788,6 +879,7 @@ we also have alternative shorter class names :
 ---
 
 ### word-spacing :
+
 ```html
 <div class="wordsp_n">word-spacing: normal</div>
 <div class="wordsp_1">word-spacing: 1px</div>
@@ -798,6 +890,7 @@ we also have alternative shorter class names :
 ```
 
 we also have alternative shorter class names :
+
 ```html
 <div class="ws_n">word-spacing: normal</div>
 <div class="ws_1">word-spacing: 1px</div>
@@ -814,6 +907,7 @@ we also have alternative shorter class names :
 ### border-width :
 
 from 0px to 20px :
+
 ```html
 <div class="bd_0">border-width: 0</div>
 <div class="bd_1">border-width: 1px</div>
@@ -848,6 +942,7 @@ to set border styles for specific side just replace `"bd_"` with :
 `"bdl_"` for border-left,
 
 examples :
+
 ```html
 <div class="bdt_dashed">border-top-style: dashed</div>
 <div class="bdr_solid">border-right-style: solid</div>
@@ -858,6 +953,7 @@ examples :
 ### Border-Spacing :
 
 from 0px to 10px :
+
 ```html
 <div class="bdsp_0">border-spacing: 0px</div>
 <div class="bdsp_1">border-spacing: 1px</div>
@@ -876,6 +972,7 @@ from 0px to 10px :
 ### border-radius with px unit (default) :
 
 from 0 to 10px every size :
+
 ```html
 <div class="rds_0">border-radius: 0px</div>
 <div class="rds_1">border-radius: 1px</div>
@@ -885,6 +982,7 @@ from 0 to 10px every size :
 ```
 
 from 10px to 50px in 5px steps :
+
 ```html
 <div class="rds_10">border-radius: 10px</div>
 <div class="rds_15">border-radius: 15px</div>
@@ -896,6 +994,7 @@ from 10px to 50px in 5px steps :
 ### border-radius with % unit :
 
 just add `"pc"` after classnames. and they are from 0 to 100 in 5% steps :
+
 ```html
 <div class="rds_5">border-radius: 5px</div>
 <div class="rds_10">border-radius: 10px</div>
@@ -919,21 +1018,25 @@ add these after `"rds"`
 `"br"` and `"bt"` for bottom right,
 
 for example to apply border-top-left-radius as 5px do it like this :
+
 ```html
 <div class="rdstl_5">border-top-left-radius: 5px</div>
 ```
 
 or as alternative class for that :
+
 ```html
 <div class="rdslt_5">border-top-left-radius: 5px</div>
 ```
 
 and for % unit :
+
 ```html
 <div class="rdstl_5pc">border-top-left-radius: 5%</div>
 ```
 
 or as alternative class for that :
+
 ```html
 <div class="rdslt_5pc">border-top-left-radius: 5%</div>
 ```
@@ -986,6 +1089,7 @@ opacity style values are between 0 to 1.
 0 means it is hidden and 1 means it is quite visible.
 
 we have opacity values for each 5% steps :
+
 ```html
 <div class="op_0"  >opacity: 0</div>
 <div class="op_005">opacity: 0.05</div>
@@ -1015,6 +1119,7 @@ we have opacity values for each 5% steps :
 you can easily apply opacity hover effects with adding `"hov_"` to beginning of above classes.
 
 examples :
+
 ```html
 <div class="hov_op_05">
 	when mouse hovers, opacity will be 0.05 with speed of 250ms.
@@ -1036,6 +1141,7 @@ examples :
 ```
 
 we also have alternative shorter class names :
+
 ```html
 <div class="curs_a">cursor: auto</div>
 <div class="curs_po">cursor: pointer</div>

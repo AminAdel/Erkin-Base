@@ -40,20 +40,20 @@
 
 /* Overflow :
 ===========================*/
-.ovf_a		{ overflow: auto !important; }
-.ovf_v		{ overflow: visible !important; }
-.ovf_h		{ overflow: hidden !important; }
-.ovf_s      { overflow: scroll !important; }
+.ovf_a, .of_a		{ overflow: auto !important; }
+.ovf_v, .of_v		{ overflow: visible !important; }
+.ovf_h, .of_h		{ overflow: hidden !important; }
+.ovf_s, .of_s      { overflow: scroll !important; }
 
-.ovfx_a		{ overflow-x: auto !important; }
-.ovfx_v     { overflow-x: visible !important; }
-.ovfx_h     { overflow-x: hidden !important; }
-.ovfx_s     { overflow-x: scroll !important; }
+.ovfx_a, .ofx_a		{ overflow-x: auto !important; }
+.ovfx_v, .ofx_v     { overflow-x: visible !important; }
+.ovfx_h, .ofx_h     { overflow-x: hidden !important; }
+.ovfx_s, .ofx_s     { overflow-x: scroll !important; }
 
-.ovfy_a		{ overflow-y: auto !important; }
-.ovfy_v		{ overflow-y: visible !important; }
-.ovfy_h		{ overflow-y: hidden !important; }
-.ovfy_s     { overflow-y: scroll !important; }
+.ovfy_a, .ofy_a		{ overflow-y: auto !important; }
+.ovfy_v, .ofy_v		{ overflow-y: visible !important; }
+.ovfy_h, .ofy_h		{ overflow-y: hidden !important; }
+.ovfy_s, .ofy_s     { overflow-y: scroll !important; }
 
 
 /* z-index :
