@@ -1156,9 +1156,10 @@ you can change from any level to any level with mouse hover :
 
 # Transform Rotate :
 
-from 45deg to 360deg in 45deg steps :
+from 0deg to 360deg in 45deg steps :
 
 ```html
+<div class="rot_0">0deg rotate (no rotate or back to normal)</div>
 <div class="rot_45">45deg rotate</div>
 <div class="rot_90">90deg rotate</div>
 <div class="rot_135">135deg rotate</div>
@@ -1172,14 +1173,15 @@ from 45deg to 360deg in 45deg steps :
 you can change from any rotate deg to any other deg with mouse hover :
 
 ```html
-<div class="hover_rot_45">when mouse hovers rotates to 45deg</div>
-<div class="hover_rot_90">when mouse hovers rotates to 90deg</div>
-<div class="hover_rot_135">when mouse hovers rotates to 135deg</div>
-<div class="hover_rot_180">when mouse hovers rotates to 180deg</div>
-<div class="hover_rot_225">when mouse hovers rotates to 225deg</div>
-<div class="hover_rot_270">when mouse hovers rotates to 270deg</div>
-<div class="hover_rot_315">when mouse hovers rotates to 315deg</div>
-<div class="hover_rot_360">when mouse hovers rotates to 360deg</div>
+<div class="hov_rot_0">when mouse hovers rotates to 0deg (normal)</div>
+<div class="hov_rot_45">when mouse hovers rotates to 45deg</div>
+<div class="hov_rot_90">when mouse hovers rotates to 90deg</div>
+<div class="hov_rot_135">when mouse hovers rotates to 135deg</div>
+<div class="hov_rot_180">when mouse hovers rotates to 180deg</div>
+<div class="hov_rot_225">when mouse hovers rotates to 225deg</div>
+<div class="hov_rot_270">when mouse hovers rotates to 270deg</div>
+<div class="hov_rot_315">when mouse hovers rotates to 315deg</div>
+<div class="hov_rot_360">when mouse hovers rotates to 360deg</div>
 ```
 
 more examples :

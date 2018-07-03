@@ -5,6 +5,7 @@
 
 /* Rotate :
 ===========================*/
+.hov_rot_0,
 .hov_rot_45,
 .hov_rot_90,
 .hov_rot_135,
@@ -15,11 +16,12 @@
 .hov_rot_360 {
 	@include transition('transform', '250', '');
 }
-.rot_45,  .hover_rot_45:hover	{ transform: rotate(45deg); }
-.rot_90,  .hover_rot_90:hover	{ transform: rotate(90deg); }
-.rot_135, .hover_rot_135:hover	{ transform: rotate(135deg); }
-.rot_180, .hover_rot_180:hover	{ transform: rotate(180deg); }
-.rot_225, .hover_rot_225:hover	{ transform: rotate(225deg); }
-.rot_270, .hover_rot_270:hover	{ transform: rotate(270deg); }
-.rot_315, .hover_rot_315:hover	{ transform: rotate(315deg); }
-.rot_360, .hover_rot_360:hover	{ transform: rotate(360deg); }
+.rot_0,   .hov_rot_0:hover	{ transform: rotate(0deg); }
+.rot_45,  .hov_rot_45:hover	{ transform: rotate(45deg); }
+.rot_90,  .hov_rot_90:hover	{ transform: rotate(90deg); }
+.rot_135, .hov_rot_135:hover	{ transform: rotate(135deg); }
+.rot_180, .hov_rot_180:hover	{ transform: rotate(180deg); }
+.rot_225, .hov_rot_225:hover	{ transform: rotate(225deg); }
+.rot_270, .hov_rot_270:hover	{ transform: rotate(270deg); }
+.rot_315, .hov_rot_315:hover	{ transform: rotate(315deg); }
+.rot_360, .hov_rot_360:hover	{ transform: rotate(360deg); }
