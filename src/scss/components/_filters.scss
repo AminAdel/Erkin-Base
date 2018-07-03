@@ -11,7 +11,7 @@
 	-webkit-filter: grayscale(1) !important;
     filter: grayscale(1) !important;
 }
-$i: 10;
+$i: 0;
 @while $i <= 90 {
 	.filter_gray_#{$i} {
 		-webkit-filter: grayscale($i / 100) !important;
@@ -39,7 +39,7 @@ $i: 0;
 	-webkit-filter: sepia(1) !important;
     filter: sepia(1) !important;
 }
-$i: 10;
+$i: 0;
 @while $i <= 90 {
 	.filter_sepia_#{$i} {
 		-webkit-filter: sepia($i / 100) !important;

@@ -1067,12 +1067,12 @@ we also have alternative shorter class names :
 
 ### filter grayscale :
 
-from 10% to 100% :
+from 0% to 100% :
 
 ```html
+<div class="filter_gray_0">filter: grayscale(0)</div>
 <div class="filter_gray_10">filter: grayscale(0.1)</div>
 <div class="filter_gray_20">filter: grayscale(0.2)</div>
-<div class="filter_gray_30">filter: grayscale(0.3)</div>
 ...
 <div class="filter_gray_100">filter: grayscale(1)</div>
 ```
@@ -1099,12 +1099,12 @@ _should we extend to more than 10px?_
 
 ### filter sepia :
 
-from 10% to 100% :
+from 0% to 100% :
 
 ```html
+<div class="filter_sepia_0">filter: sepia(0)</div>
 <div class="filter_sepia_10">filter: sepia(0.1)</div>
 <div class="filter_sepia_20">filter: sepia(0.2)</div>
-<div class="filter_sepia_30">filter: sepia(0.3)</div>
 ...
 <div class="filter_sepia_100">filter: sepia(1)</div>
 ```
