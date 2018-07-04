@@ -6,12 +6,6 @@ version 2 is complete rewrite of the project and is not compatible with older ve
 
 ---
 
-### quick setup
-
-just include "Erkin-Base.min.css" file from dist folder into your web project, then you are ready to go.
-
----
-
 # Table of Content :
 
 ### [Quick Setup](#quick-setup)
@@ -111,6 +105,12 @@ just include "Erkin-Base.min.css" file from dist folder into your web project, t
 ### [Colors](#colors-)
 
 ---
+---
+
+### quick setup
+
+just include "Erkin-Base.min.css" file from dist folder into your web project, then you are ready to go.
+
 ---
 
 # Layout :
