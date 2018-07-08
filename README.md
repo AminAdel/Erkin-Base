@@ -1,4 +1,4 @@
-# Erkin-Base version 2.0.4
+# Erkin-Base version 2.0.5
 
 Web frontend practical style classes. Useful near bootstrap and other UI frameworks.
 
@@ -303,6 +303,8 @@ set margin auto to sides :
 
 ```html
 <div class="mg_a">margin-right: auto; margin-left: auto</div>
+<div class="mgr_a">margin-right: auto</div>
+<div class="mgl_a">margin-left: auto</div>
 ```
 
 ### margin-top :
