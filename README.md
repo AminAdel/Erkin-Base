@@ -48,7 +48,7 @@ version 2 is complete rewrite of the project and is not compatible with older ve
 * [max-width with vw unit](#max-width-with-vw-unit-)
 * [minus 100% width](#minus-100-width-)
 
-### [Height](#height)
+### [Height](#height-)
 
 ### [Background](#background-)
 
