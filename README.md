@@ -1210,7 +1210,7 @@ we have opacity values for each 5% steps :
 <div class="op_065">opacity: 0.65</div>
 <div class="op_07" >opacity: 0.70</div>
 <div class="op_075">opacity: 0.75</div>
-<div class="op_08">opacity: 0.80</div>
+<div class="op_08" >opacity: 0.80</div>
 <div class="op_085">opacity: 0.85</div>
 <div class="op_09" >opacity: 0.90</div>
 <div class="op_095">opacity: 0.95</div>
