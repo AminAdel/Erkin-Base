@@ -1406,6 +1406,6 @@ more examples :
 
 we separated color classes in an independent repository here :
 
-[AminAdel/webcolors](https://github.com/AminAdel/webcolors)
+[webcolors](https://github.com/AminAdel/webcolors)
 
-all coloring classes is now there. and they are great match with `"Erkin-Base"`. we strongly recommend to use it beside `"Erkin-Base"`.
+all coloring classes is now there. and they are great match with `Erkin-Base`. we recommend to use it beside this repo.
