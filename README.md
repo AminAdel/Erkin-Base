@@ -1099,11 +1099,11 @@ from 10px to 50px in 5px steps :
 just add `"pc"` after classnames. and they are from 0 to 100 in 5% steps :
 
 ```html
-<div class="rds_5">border-radius: 5px</div>
-<div class="rds_10">border-radius: 10px</div>
-<div class="rds_15">border-radius: 15px</div>
+<div class="rds_5pc">border-radius: 5px</div>
+<div class="rds_10pc">border-radius: 10px</div>
+<div class="rds_15pc">border-radius: 15px</div>
 ...
-<div class="rds_100">border-radius: 100px</div>
+<div class="rds_100pc">border-radius: 100px</div>
 ```
 
 ### border radius for each side :
